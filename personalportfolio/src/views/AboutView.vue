@@ -1,5 +1,30 @@
-<script setup>
-  // import MyCarousel from './components/MyCarousel.vue';
+<script>
+  // Import Swiper Vue.js components
+  import { Swiper, SwiperSlide } from 'swiper/vue';
+
+  // Import Swiper styles
+  import 'swiper/css';
+
+  import 'swiper/css/pagination';
+  import 'swiper/css/navigation';
+  import 'swiper/css/effect-fade';
+
+  // import './style.css';
+
+  // import required modules
+  import { Autoplay, Navigation, Pagination, EffectFade } from 'swiper/modules';
+
+  export default {
+    components: {
+      Swiper,
+      SwiperSlide,
+    },
+    setup() {
+      return {
+        modules: [Autoplay, Navigation, Pagination, EffectFade],
+      };
+    },
+  };
 </script>
 
 <template>
@@ -13,30 +38,48 @@
     <!-- Hero Section 1 -->
     <div class="grid grid-cols-12">
       <div class="col-span-6 ">
-        <swiper-container :pagination="true" :modules="modules" slides-per-view="1" speed="500" loop="true" class="h-full w-full">
-          <swiper-slide class ="flex items-center justify-center">
+        <swiper-container 
+          :effect="fade"
+          :modules="modules"
+          :loop="true"
+          :speed="1000" 
+          :autoplay="{
+            delay: 4000,
+            disableOnInteraction: false
+          }"
+          :pagination="true"
+          :navigation="true" 
+          class="h-full w-full">
+        <swiper-slide class ="flex items-center justify-center">
 
-              <img class="h-[800px] w-auto rounded-xl object-fill" src="/images/gradpics.jpg?url" alt="Headshot">
+              <img class="h-[800px] w-full rounded-l-xl object-fill" src="/images/gradpics.jpg?url" alt="Headshot">
 
           </swiper-slide>
           <swiper-slide class="flex items-center justify-center">
 
             <!-- <div class=" overflow-hidden flex items-center justify-center"> -->
 
-              <img class="h-[800px] w-auto rounded-xl object-fill" src="/images/wilsonSSC.JPG?url" alt="Brandon Wilson Wins 100 Back SSC Champ">
+              <img class="h-[800px] w-full rounded-l-xl object-fill" src="/images/wilsonSSC.JPG?url" alt="Brandon Wilson Wins 100 Back SSC Champ">
 
           </swiper-slide>
           <swiper-slide class="flex items-center justify-center">
 
-              <img class="h-[800px] w-auto rounded-xl object-fill" src="/images/grrad.jpg?url" alt="ravensXorioles">
+              <img class="h-[800px] w-full rounded-l-xl object-fill" src="/images/grrad.jpg?url" alt="brandonXaiden">
 
           </swiper-slide>
+
+          <swiper-slide class="flex items-center justify-center">
+
+              <img class="h-[800px] w-full rounded-l-xl object-fill" src="/images/pole.JPG?url" alt="brandonXaiden">
+
+          </swiper-slide>
+
         </swiper-container>
         <!-- <img class="h-auto p-10 " src="/images/wilsonHEADSHOT.JPG?url" alt="Brandon Wilson Wins 100 Back SSC Champ"> -->
         <!-- <MyCarousel /> -->
 
       </div>
-      <div class="col-span-6 flex flex-col items-center justify-center text-balance bg-gray-700 rounded-xl">
+      <div class="col-span-6 flex flex-col items-center justify-center text-balance bg-gray-700 rounded-r-xl">
           <h1 class="text-2xl font-bold m-8">About Me</h1>
           <p class="text-center m-4 normal-case">
             Hi, I’m a Computer Science grad from Florida Southern College, where I finished with Magna Cum Laude 
@@ -57,7 +100,7 @@
 
     <!-- Hero Section 1 -->
     <div class="grid grid-cols-12">
-      <div class="col-span-6 flex flex-col items-center justify-center text-balance bg-gray-700 rounded-xl">
+      <div class="col-span-6 flex flex-col items-center justify-center text-balance bg-gray-700 rounded-l-xl">
         <h1 class="text-2xl font-bold m-8">#Swammer</h1>
         <p class="text-center m-4 normal-case">
           This is some text about my life with swimming 
@@ -66,25 +109,41 @@
           I have also been to the Junior Olympics and have won multiple medals in my events. I have also been to the
           Florida State Championships and have won multiple medals in my events. I have also been to the NCAA Division II Championships
           and have won multiple medals in my events. I have also been to the NCAA Division II National Championships and have won multiple medals in my events.
-          I have also been to the NCAA Division II National Championships and have won multiple medals in my events.  
-
+          I have also been to the NCAA Division II National Championships and have won multiple medals in my events. 
+ 
         </p>
       </div>
       <div class="col-span-6">
         <!-- <img class="h-auto p-10 " src="/images/wilsonSSC.JPG?url" alt="Brandon Wilson Wins 100 Back SSC Champ"> -->
-        <swiper-container :pagination="true" :modules="modules" slides-per-view="1" speed="500" loop="true" class="h-full w-full flex flex-col items-center justify-center">
+        <swiper-container 
+          :effect="fade"
+          :modules="modules"
+          :loop="true"
+          :speed="1000" 
+          :autoplay="{
+            delay: 4000,
+            disableOnInteraction: false
+          }"
+          :pagination="true"
+          :navigation="true"
+          class="h-full w-full flex flex-col items-center justify-center
+        ">
           <!--  border only top and then border only-->
           <swiper-slide>
-            <img class="h-1/2 w-full object-cover rounded-t-xl" src="/images/wave.JPG?url" alt="wave">
-            <img class="h-1/2 w-full object-cover rounded-b-xl" src="/images/free.JPG?url" alt="freestyletwin">
+            <img class="h-1/2 w-full object-cover rounded-tr-xl" src="/images/wave.JPG?url" alt="wave">
+            <img class="h-1/2 w-full object-cover rounded-br-xl" src="/images/free.JPG?url" alt="freestyletwin">
           </swiper-slide>
           <swiper-slide>
-            <img class="h-1/2 w-full object-cover rounded-t-xl" src="/images/walkout.JPG?url" alt="walkout">
-            <img class="h-1/2 w-full object-cover rounded-b-xl" src="/images/firstW.JPG?url" alt="mocsys">
+            <img class="h-1/2 w-full object-cover rounded-tr-xl" src="/images/walkout.JPG?url" alt="walkout">
+            <img class="h-1/2 w-full object-cover rounded-br-xl" src="/images/firstW.JPG?url" alt="mocsys">
           </swiper-slide>
           <swiper-slide>
-            <img class="h-1/2 w-full object-cover rounded-t-xl" src="/images/smile.JPG?url" alt="walkout">
-            <img class="h-1/2 w-full object-cover rounded-b-xl" src="/images/back.JPG?url" alt="mocsys">
+            <img class="h-1/2 w-full object-cover rounded-tr-xl" src="/images/smile.JPG?url" alt="walkout">
+            <img class="h-1/2 w-full object-cover rounded-br-xl" src="/images/back.JPG?url" alt="mocsys">
+          </swiper-slide>
+          <swiper-slide>
+            <img class="h-1/2 w-full object-cover rounded-tr-xl" src="/images/soloW.jpg?url" alt="walkout">
+            <img class="h-1/2 w-full object-cover rounded-br-xl" src="/images/teamW.jpg?url" alt="mocsys">
           </swiper-slide>
         </swiper-container>
       </div>
@@ -93,27 +152,55 @@
     <!-- Hero Section 3 -->
     <div class="grid grid-cols-12">
       <div class="col-span-6">
-        <swiper-container :pagination="true" :modules="modules" slides-per-view="1" speed="500" loop="true" class="h-full w-full">
+        <!--           :spaceBetween="30"
+          :autoplay="{
+            delay: 7000,
+            disableOnInteraction: false,
+          }"
+          :pagination="true"
+          :navigation="true"
+          :modules="modules"
+          class="h-full w-full" -->
+        <swiper-container 
+          :effect="fade"
+          :modules="modules"
+          :loop="true"
+          :speed="1000" 
+          :autoplay="{
+            delay: 4000,
+            disableOnInteraction: false
+          }"
+          :pagination="true"
+          :navigation="true"
+          class="h-full w-full"
+        >
           <swiper-slide class ="flex items-center justify-center">
 
-              <img class="h-[800px] w-auto rounded-xl object-fill" src="/images/skoVENS.JPG?url" alt="Headshot">
+              <img class="h-[800px] w-full rounded-l-xl object-fill" src="/images/skoVENS.JPG?url" alt="Headshot">
 
           </swiper-slide>
           <swiper-slide class="flex items-center justify-center">
 
             <!-- <div class=" overflow-hidden flex items-center justify-center"> -->
 
-              <img class="h-[800px] w-auto rounded-xl object-fill" src="/images/luffy.JPG.png?url" alt="pirate king">
+              <img class="h-[800px] w-full rounded-l-xl object-fill" src="/images/luffy.JPG.png?url" alt="pirate king">
 
           </swiper-slide>
           <swiper-slide class="flex items-center justify-center">
 
-              <img class="h-[800px] w-auto rounded-xl object-fill" src="/images/bron.jpg?url" alt="ravensXorioles">
+              <img class="h-[800px] w-full rounded-l-xl object-fill" src="/images/bron.jpg?url" alt="ravensXorioles">
+
 
           </swiper-slide>
+
+          <swiper-slide>
+            <img class="h-1/2 w-full object-cover rounded-tl-xl" src="/images/ravens.jpg?url" alt="walkout">
+            <img class="h-1/2 w-full object-cover rounded-bl-xl" src="/images/fscseniors.JPG?url" alt="mocsys">
+          </swiper-slide>
+
         </swiper-container>
       </div>
-      <div class="col-span-6 flex flex-col items-center justify-center bg-gray-700 rounded-xl">
+      <div class="col-span-6 flex flex-col items-center justify-center bg-gray-700 rounded-r-xl">
         <h1 class="text-2xl font-bold m-8">Who am I really?</h1>
         <p class="text-center m-4 normal-case">
           Avid Ravens fanatic, I am from baltimore so I have to fight the urge to screm "O" during every tune the national anthem is played.
@@ -133,29 +220,30 @@
   
 </template>
 
-<script>
-  // Import Swiper Vue.js components
-  import { Swiper, SwiperSlide } from 'swiper/vue';
+<style scoped>
+/* how tf do i change the colors of the arrows and the dots */
+.swiper-slide-active, .swiper-slide-next, .swiper-slide-prev {
+  background-color: #9333ea;  /* Tailwind purple-600 */
+}
 
-  // Import Swiper styles
-  import 'swiper/css';
+.swiper-button-prev {
+  color: #9333ea; /* Tailwind purple-600 */
+}
 
-  import 'swiper/css/pagination';
+.swiper-button-next {
+  color: #9333ea; /* Tailwind purple-600 */
+}
 
-  // import './style.css';
+.swiper-pagination-bullets {
+  background-color: #9333ea; /* Tailwind purple-600 */
+}
 
-  // import required modules
-  import { Pagination } from 'swiper/modules';
+.swiper-pagination-bullet {
+  background-color: yellow; /* Tailwind purple-600 */
+}
 
-  export default {
-    components: {
-      Swiper,
-      SwiperSlide,
-    },
-    setup() {
-      return {
-        modules: [Pagination],
-      };
-    },
-  };
-</script>
+.swiper-pagination-bullet-active {
+  background-color: orange; /* Tailwind purple-600 */
+}
+
+</style>
