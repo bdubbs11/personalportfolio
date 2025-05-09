@@ -33,7 +33,7 @@
   <div class="col-span-2"></div>
 
   <!-- Main content -->
-  <div class="col-span-12 grid grid-rows-3 gap-4">
+  <div class="col-span-12 grid grid-rows-3 gap-4 mt-12">
 
     <!-- Hero Section 1 -->
     <div class="grid grid-cols-12">

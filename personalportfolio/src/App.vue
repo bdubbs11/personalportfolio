@@ -1,6 +1,6 @@
 <template>
 <div class="flex flex-col text-white">
-  <nav class="flex flex-row justify-between my-auto w-screen px-6 py-4 text-whtie">
+  <nav class="flex flex-row justify-between my-auto w-screen px-6 py-4 text-white">
     <!-- if page is different make the color gradient for my name change -->
     <!-- if swimming make blue to red bc of all the red and blue in actualality of me siwmming LOL -->
     <router-link to='/' class = "text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text">Brandon Wilson</router-link> <!-- click on it and change theme / inverse -->
