@@ -1,4 +1,8 @@
-import './assets/tailwindcss.css'
+import './assets/tailwindcss.css';
+import { register } from 'swiper/element/bundle';
+
+
+register();
 
 import { createApp } from 'vue'
 import App from './App.vue'
