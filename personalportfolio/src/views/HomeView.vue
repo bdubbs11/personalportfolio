@@ -14,10 +14,10 @@
             <p class = "pb-4 text-large" > I have a specalization for Web Development and a passion for learning new <span> skills. </span></p>
 
           <div class="flex gap-4 text-3xl text-gray-600 pb-4">
-            <div class="w-8 h-8 bg-gradient-to-r from-black-400 to-gray-500 mask-github"></div>
-            <div class="w-8 h-8 bg-gradient-to-r from-pink-500 to-yellow-500 mask-instagram"></div>
-            <div class="w-8 h-8 bg-gradient-to-r from-sky-500 to-indigo-500 mask-linkedin"></div>
-            <div class="w-8 h-8 bg-gradient-to-r from-green-400 to-emerald-500 mask-spotify"></div>
+            <a href="https://github.com/bdubbs11" target="_blank" rel="noopener noreferrer"><div class="w-8 h-8 bg-gradient-to-r from-black-400 to-gray-500 mask-github"></div></a>
+            <a href="https://www.instagram.com/l3randooo" target="_blank" rel="noopener noreferrer"><div class="w-8 h-8 bg-gradient-to-r from-pink-500 to-yellow-500 mask-instagram"></div></a>
+            <a href="https://www.linkedin.com/in/brandon-wilson-635598254/" target="_blank" rel="noopener noreferrer"><div class="w-8 h-8 bg-gradient-to-r from-sky-500 to-indigo-500 mask-linkedin"></div></a>
+            <a href="https://open.spotify.com/user/bdubbs_11" target="_blank" rel="noopener noreferrer"><div class="w-8 h-8 bg-gradient-to-r from-green-400 to-emerald-500 mask-spotify"></div></a>
           </div>
           <button class="border rounded-full px-6 py-2 mt-2 bg-gradient-to-r from-blue-400 to-purple-500 border-none font-semibold"> Download Resume </button>
           </div>
