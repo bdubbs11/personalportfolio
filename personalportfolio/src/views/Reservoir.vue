@@ -26,7 +26,9 @@
     },
   };
 </script>
-
+<!-- Future reference here lets store all of this information inside of a json? 
+      So i then can call reservoir.json and have the images... text description... title all filled out
+      and don't need to make multiple files for this information   -->
 
 <template>
       <div class="flex flex-col min-h-screen"> 
@@ -37,6 +39,7 @@
               until i add more projects this will be fine for now -->
             <div class=" mx-24 ">
               <p class="text-6xl focus:outline-none bg-gradient-to-r from-resblue to-resaqua text-transparent bg-clip-text font-young-serif mt-4">Reservoir</p>
+              <p> <img class="rounded-l-xl object-fill" src="/images/res.png?url" alt="Headshot"></p>
               <!-- Introduction -->
               <h2 class="text-2xl font-semibold mt-8 mb-2 mx-10">What is Reservoir?</h2>
               <p class="text-center">
