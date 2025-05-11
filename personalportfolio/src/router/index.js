@@ -24,9 +24,10 @@ const router = createRouter({
       component: AboutView,
     },
     {
-      path: '/reservoir',
+      path: '/reservoir/:id',
       name: 'reservoir',
       component: Reservoir,
+      props: true,
     },
   ],
 })

@@ -10,14 +10,26 @@
   import 'swiper/css/effect-fade';
 
   // import './style.css';
+  // imort from json
+  import projects from '../assets/projects.json';
+
 
   // import required modules
   import { Autoplay, Navigation, Pagination, EffectFade } from 'swiper/modules';
 
   export default {
+    props: ['id'],
+    mounted() {
+      console.log(this.id); // This will log the id passed in the URL (e.g., 0)
+    },
     components: {
       Swiper,
       SwiperSlide,
+    },
+    data() {
+      return {
+        project: projects[this.id],
+      };
     },
     setup() {
       return {
@@ -31,17 +43,19 @@
       and don't need to make multiple files for this information   -->
 
 <template>
-      <div class="flex flex-col min-h-screen"> 
+      <div class="flex flex-col min-h-screen pageFadeIn"> 
         <div class="container grid grid-cols-16 min-w-screen flex-grow">
-          <div class="col-span-2 border border-red-500"></div>
-          <div class="col-span-12 my-6 border border-red-500">
+          <div class="col-span-2 "></div>
+          <div class="col-span-12 my-6">
               <!-- this needs to be the png but it will be reservoirs text as of rn
               until i add more projects this will be fine for now -->
-            <div class=" mx-24 ">
-              <p class="text-6xl focus:outline-none bg-gradient-to-r from-resblue to-resaqua text-transparent bg-clip-text font-young-serif mt-4">Reservoir</p>
-              <p> <img class="rounded-l-xl object-fill" src="/images/res.png?url" alt="Headshot"></p>
+            <div class="mx-24 text-center">
+              <p class="flex items-center justify-center"><img class="rounded-l-xl object-fill h-1/2 w-1/2" :src="project.png" alt="Headshot"> </p>
+
+
               <!-- Introduction -->
               <h2 class="text-2xl font-semibold mt-8 mb-2 mx-10">What is Reservoir?</h2>
+              
               <p class="text-center">
                 Reservoir is a web application designed to help users organize and track their media, connect with friends, share recommendations, 
                 and receive personalized AI-driven suggestions. Unlike existing platforms such as MyAnimeList, IMDb, and Letterboxd, Reservoir 
@@ -57,14 +71,14 @@
               </p>
 
               <!-- UI Preview -->
-              <h2 class="text-2xl font-semibold mt-8 mb-2">Preview the UI</h2>
+              <h2 class="text-2xl font-semibold mt-8 mb-2">A glimps into our website</h2>
               <p class="text-center mb-4">
                 While Reservoir isn't public (yet?), you can check out the UI through the images below.
               </p>
             </div>
 
               <!-- carasouel of images of reservoir -->
-              <div class="flex items-center justify-center">
+              <div class="flex items-center justify-center mt-10">
                 <swiper-container 
                   :effect="fade"
                   :modules="modules"
@@ -100,8 +114,25 @@
 
 
           </div>
-          <div class="col-span-2 border border-red-500"></div>
+          <div class="col-span-2"></div>
 
         </div>
       </div>
 </template>
+
+<style scoped>
+@keyframes fadeInBody {
+  0% { 
+    opacity: 0;
+    transform: translateY(30px); 
+  }
+  100% { 
+    opacity: 1; 
+    transform: translateY(0px);
+  }
+}
+
+.pageFadeIn {
+  animation: fadeInBody 1.5s ease-out;
+}
+</style>

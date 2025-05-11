@@ -3,10 +3,10 @@
   <nav class="flex flex-row justify-between my-auto w-screen px-6 py-4 text-white">
     <!-- if page is different make the color gradient for my name change -->
     <!-- if swimming make blue to red bc of all the red and blue in actualality of me siwmming LOL -->
-    <router-link to='/' class = "text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text">Brandon Wilson</router-link> <!-- click on it and change theme / inverse -->
+    <router-link to='/' class = "text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text hover:scale-110 duration-300 ease-in-out">Brandon Wilson</router-link> <!-- click on it and change theme / inverse -->
     <div class="flex gap-10">
-      <router-link to='/projects' class="pt-1">Projects</router-link>
-      <router-link to='/about' class="pt-1">About</router-link>
+      <router-link to='/projects' class="pt-1 hover:bg-gray-900 p-2 rounded cursor-pointer">Projects</router-link>
+      <router-link to='/about' class="pt-1 hover:bg-gray-900 p-2 rounded cursor-pointer">About</router-link>
     </div>
   </nav>
 

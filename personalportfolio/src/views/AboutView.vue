@@ -28,7 +28,7 @@
 </script>
 
 <template>
-<div class="container grid grid-cols-16 min-w-screen min-h-screen">
+<div class="container grid grid-cols-16 min-w-screen min-h-screen pageFadeIn">
   <!-- Left spacing -->
   <div class="col-span-2"></div>
 
@@ -222,9 +222,9 @@
 
 <style scoped>
 /* how tf do i change the colors of the arrows and the dots */
-.swiper-slide-active, .swiper-slide-next, .swiper-slide-prev {
-  background-color: #9333ea;  /* Tailwind purple-600 */
-}
+/* .swiper-slide-active, .swiper-slide-next, .swiper-slide-prev {
+  background-color: #9333ea; 
+} */
 
 .swiper-button-prev {
   color: #9333ea; /* Tailwind purple-600 */
@@ -245,5 +245,22 @@
 .swiper-pagination-bullet-active {
   background-color: orange; /* Tailwind purple-600 */
 }
+
+
+@keyframes fadeInBody {
+  0% { 
+    opacity: 0;
+    transform: translateY(30px); 
+  }
+  100% { 
+    opacity: 1; 
+    transform: translateY(0px);
+  }
+}
+
+.pageFadeIn {
+  animation: fadeInBody 1.5s ease-out;
+}
+
 
 </style>
