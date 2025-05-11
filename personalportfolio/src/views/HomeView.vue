@@ -19,7 +19,11 @@
             <a href="https://www.linkedin.com/in/brandon-wilson-635598254/" target="_blank" rel="noopener noreferrer"><div class="w-8 h-8 bg-gradient-to-r from-sky-500 to-indigo-500 mask-linkedin"></div></a>
             <a href="https://open.spotify.com/user/bdubbs_11" target="_blank" rel="noopener noreferrer"><div class="w-8 h-8 bg-gradient-to-r from-green-400 to-emerald-500 mask-spotify"></div></a>
           </div>
-          <button class="border rounded-full px-6 py-2 mt-2 bg-gradient-to-r from-blue-400 to-purple-500 border-none font-semibold"> Download Resume </button>
+
+          <a href="/images/files/wilson-newgrad-resume.pdf" download>
+            <button class="border rounded-full px-6 py-2 mt-2 bg-gradient-to-r from-blue-400 to-purple-500 border-none font-semibold"> Download Resume </button>
+          </a>  
+          
           </div>
           <div class="col-span-6 p-1 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full inline-block"> <!-- hero image -->
             <img class="h-auto p-2 rounded-full " src="/images/wilsonHEADSHOT.JPG?url" alt="hero image">
