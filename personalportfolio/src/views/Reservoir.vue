@@ -92,22 +92,22 @@
                   :navigation="true" 
                   class="h-1/2 w-3/4">
                   <swiper-slide>
-                    <img class="rounded-l-xl object-fill" src="/images/mocsys.JPG?url" alt="Headshot">
+                    <img class="rounded-xl object-fill" src="/images/reservoir/reservoir-home.png" alt="home page">
                   </swiper-slide>
                   <swiper-slide>
-                    <img class="rounded-l-xl object-fill" src="/images/soloW.jpg?url" alt="Headshot">
+                    <img class="rounded-xl object-fill" src="/images/reservoir/reservoir-sign-up.png" alt="sign up page">
                   </swiper-slide>
                   <swiper-slide>
-                    <img class="rounded-l-xl object-fill" src="/images/teamW.jpg?url" alt="Headshot">
+                    <img class="rounded-xl object-fill" src="/images/reservoir/reservoir-my-reservoir.png" alt="my reservoir">
                   </swiper-slide>
                   <swiper-slide>
-                    <img class="rounded-l-xl object-fill" src="/images/mocsys.JPG?url" alt="Headshot">
+                    <img class="rounded-xl object-fill" src="/images/reservoir/reservoir-search.png" alt="search">
                   </swiper-slide>
                   <swiper-slide>
-                    <img class="rounded-l-xl object-fill" src="/images/soloW.jpg?url" alt="Headshot">
+                    <img class="rounded-xl object-fill" src="/images/reservoir/reservoir-profile.png" alt="profile">
                   </swiper-slide>
                   <swiper-slide>
-                    <img class="rounded-l-xl object-fill" src="/images/teamW.jpg?url" alt="Headshot">
+                    <img class="rounded-xl object-fill" src="/images/reservoir/reservoir-friends.png" alt="friends">
                   </swiper-slide>
                 </swiper-container>
               </div>

@@ -31,8 +31,8 @@
               </a>
             </div>
 
-          <a href="/images/files/wilson-newgrad-resume.pdf" download class="animate-slideIn-after">
-            <button class="border rounded-full px-6 py-2 mt-2 bg-gradient-to-r from-blue-400 to-purple-500 border-none font-semibold transition-transform  hover:scale-110 duration-300 ease-in-out"> Download Resume </button>
+          <a href="/images/files/wilson-newgrad-resume.pdf" download>
+            <button class="border rounded-full px-6 py-2 mt-2 bg-gradient-to-r from-blue-400 to-purple-500 border-none font-semibold transition-transform  hover:scale-110 duration-300 ease-in-out animate-slideIn-after"> Download Resume </button>
           </a>  
 
           </div>
