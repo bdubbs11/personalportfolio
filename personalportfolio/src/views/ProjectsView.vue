@@ -30,12 +30,12 @@ export default defineComponent({
 
         <!-- Bottom Section for Projects Grid -->
         <div class="py-6">
-          <div class="container mx-auto grid grid-cols-3 gap-4">
+          <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-4">
             <!-- 1st Card -->
           <router-link :to="{ name: 'reservoir', params: { id: 0 } }">
             <div class="rounded-lg p-4 text-center flex flex-col justify-center items-center h-full">
               <div class="hover:bg-gray-900 p-2 rounded cursor-pointer">
-                <p class="flex items-center justify-center"><img class="rounded-xl object-fill h-3/5 w-3/5" :src="project[0].png" alt="Headshot"> </p>
+                <p class="flex items-center justify-center"><img class="rounded-xl object-fill h-3/5 w-3/5" :src="project[0].png" alt="reservoir png logo"> </p>
                 <!-- <p class="text-4xl focus:outline-none bg-gradient-to-r from-resblue to-resaqua text-transparent bg-clip-text font-young-serif">Reservoir</p> -->
               </div>
               <p class="text-md mt-6">A mass multi media database & tracker</p>
