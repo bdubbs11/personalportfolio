@@ -206,8 +206,8 @@
       <div class="col-span-12 md:col-span-6 h-[85vh] order-1 md:order-2 flex flex-col items-center justify-center bg-gray-700 xs:rounded-t-xl md:rounded-r-xl">
         <h1 class="text-2xl font-bold m-8">Who am I really?</h1>
         <p class="text-center m-4 normal-case">
-          Avid Ravens fanatic, I am from baltimore so I have to fight the urge to screm "O" during every tune the national anthem is played.
-          I love to play video games whether is be Madden, Elden Ring, or Balatro. I can always have a fun time where it is with my firends 
+          Avid Ravens fanatic, I am from baltimore so I have to fight the urge to scream "O" during every time the national anthem is played.
+          I love to play video games whether is be Madden, Elden Ring, or Balatro. I can always have a fun time whether it is with my friends 
           or by myself. I also enjoy movies, tv shows, and anime. My favorite show all time would have to be One Piece. 
         </p>
       </div>
