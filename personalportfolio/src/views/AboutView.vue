@@ -38,8 +38,8 @@
   <div class="col-span-12 grid grid-rows-3 gap-4 mt-12">
 
     <!-- Hero Section 1 -->
-    <div class="grid grid-cols-12 h-[85vh] mb-8">
-      <div class="col-span-12 md:col-span-6 order-2 md:order-1 h-[85vh]">
+    <div class="grid grid-cols-12 h-3/4 md:h-[85vh] -mb-16 md:mb-8">
+      <div class="col-span-12 md:col-span-6 order-2 md:order-1 h-3/4 md:h-[85vh]">
         <swiper-container 
           :effect="fade"
           :modules="modules"
@@ -54,25 +54,25 @@
           class="h-full w-full">
         <swiper-slide class ="flex items-center justify-center">
 
-              <img class="h-full 2xl:h-full w-full xs:rounded-b-xl md:rounded-l-xl object-fill" src="/images/gradpics.jpg?url" alt="Headshot">
+              <img class="h-full w-full rounded-b-xl md:rounded-l-xl md:rounded-br-none object-cover" src="/images/gradpics.jpg?url" alt="Headshot">
 
           </swiper-slide>
           <swiper-slide class="flex items-center justify-center">
 
             <!-- <div class=" overflow-hidden flex items-center justify-center"> -->
 
-              <img class="h-full 2xl:h-full w-full xs:rounded-b-xl md:rounded-l-xl object-fill" src="/images/wilsonSSC.JPG?url" alt="Brandon Wilson Wins 100 Back SSC Champ">
+              <img class="h-full w-full rounded-b-xl md:rounded-l-xl md:rounded-br-none object-cover" src="/images/wilsonSSC.JPG?url" alt="Brandon Wilson Wins 100 Back SSC Champ">
 
           </swiper-slide>
           <swiper-slide class="flex items-center justify-center">
 
-              <img class="h-full 2xl:h-full w-full xs:rounded-b-xl md:rounded-l-xl object-fill" src="/images/grrad.jpg?url" alt="brandonXaiden">
+              <img class="h-full w-full rounded-b-xl md:rounded-l-xl md:rounded-br-none object-cover" src="/images/grrad.jpg?url" alt="brandonXaiden">
 
           </swiper-slide>
 
           <swiper-slide class="flex items-center justify-center">
 
-              <img class="h-full 2xl:h-full w-full xs:rounded-b-xl md:rounded-l-xl object-fill" src="/images/pole.JPG?url" alt="brandonXaiden">
+              <img class="h-full w-full rounded-b-xl md:rounded-l-xl md:rounded-br-none object-cover object-bottom" src="/images/pole.JPG?url" alt="brandonXaiden">
 
           </swiper-slide>
 
@@ -81,9 +81,9 @@
         <!-- <MyCarousel /> -->
 
       </div>
-      <div class="col-span-12 md:col-span-6 order-1 md:order-2 flex flex-col items-center justify-center text-balance bg-gray-700 xs:rounded-t-xl md:rounded-r-xl h-[85vh]">
-          <h1 class="text-2xl font-bold m-8">About Me</h1>
-          <p class="text-center m-4 normal-case">
+      <div class="col-span-12 md:col-span-6 order-1 md:order-2 flex flex-col items-center justify-center bg-gray-700 rounded-t-xl md:rounded-r-xl md:rounded-tl-none h-auto pb-4 md:h-[85vh]">
+          <h1 class="text-xl md:text-2xl font-bold m-8">About Me</h1>
+          <p class="text-small md:text-large text-center m-4 normal-case">
             Hi, I’m a Computer Science grad from Florida Southern College, where I finished with Magna Cum Laude 
             honors finishing with a 3.75 GPA. 
             During college, I was also a team captain and 16-time NCAA Division II All-American swimmer. 
@@ -100,11 +100,11 @@
     </div>
 
 
-    <!-- Hero Section 1 -->
-    <div class="grid grid-cols-12 h-[85vh] mb-8">
-      <div class="col-span-12 md:col-span-6 h-[85vh] flex flex-col items-center justify-center text-balance bg-gray-700 xs:rounded-t-xl md:rounded-l-xl">
-        <h1 class="text-2xl font-bold m-8">#Swammer</h1>
-        <p class="text-center m-4 normal-case">
+    <!-- Hero Section 2 -->
+    <div class="grid grid-cols-12 h-3/4 md:h-[85vh] -mb-16 md:mb-8">
+      <div class="col-span-12 md:col-span-6 h-[80vh] pb-4 md:h-[85vh] flex flex-col items-center justify-center text-balance bg-gray-700 rounded-t-xl md:rounded-l-xl md:rounded-tr-none">
+        <h1 class="text-xl md:text-2xl font-bold m-8">#Swammer</h1>
+        <p class="text-small md:text-large text-center m-4 normal-case">
           This is some text about my life with swimming 
           and how I got into it. I have been swimming since I was 5 years old and have been swimming competitively since I was 8.
           I have been on multiple teams and have swam in multiple states. I have also been to the Olympic Trials in 2020 and 2024.
@@ -115,7 +115,7 @@
  
         </p>
       </div>
-      <div class="col-span-12 md:col-span-6 order-1 md:order-2 h-[85vh]">
+      <div class="col-span-12 md:col-span-6 order-1 md:order-2 h-3/4 md:h-[85vh]">
         <!-- <img class="h-auto p-10 " src="/images/wilsonSSC.JPG?url" alt="Brandon Wilson Wins 100 Back SSC Champ"> -->
         <swiper-container 
           :effect="fade"
@@ -134,27 +134,27 @@
           <swiper-slide>
             <img class="h-1/2 w-full object-cover md:rounded-tr-xl" src="/images/wave.JPG?url" alt="wave">
             <!-- xs:rounded-b-xl md:rounded-l-xl -->
-            <img class="h-1/2 w-full object-cover xs:rounded-b-xl md:rounded-br-xl" src="/images/free.JPG?url" alt="freestyletwin">
+            <img class="h-1/2 w-full object-cover rounded-b-xl md:rounded-br-xl" src="/images/free.JPG?url" alt="freestyletwin">
           </swiper-slide>
           <swiper-slide>
             <img class="h-1/2 w-full object-cover md:rounded-tr-xl" src="/images/walkout.JPG?url" alt="walkout">
-            <img class="h-1/2 w-full object-cover xs:rounded-b-xl md:rounded-br-xl" src="/images/firstW.JPG?url" alt="mocsys">
+            <img class="h-1/2 w-full object-cover rounded-b-xl md:rounded-br-xl" src="/images/firstW.JPG?url" alt="mocsys">
           </swiper-slide>
           <swiper-slide>
             <img class="h-1/2 w-full object-cover md:rounded-tr-xl" src="/images/smile.JPG?url" alt="walkout">
-            <img class="h-1/2 w-full object-cover xs:rounded-b-xl md:rounded-br-xl" src="/images/back.JPG?url" alt="mocsys">
+            <img class="h-1/2 w-full object-cover rounded-b-xl md:rounded-br-xl" src="/images/back.JPG?url" alt="mocsys">
           </swiper-slide>
           <swiper-slide>
             <img class="h-1/2 w-full object-cover md:rounded-tr-xl" src="/images/soloW.jpg?url" alt="walkout">
-            <img class="h-1/2 w-full object-cover xs:rounded-b-xl md:rounded-br-xl" src="/images/teamW.jpg?url" alt="mocsys">
+            <img class="h-1/2 w-full object-cover rounded-b-xl md:rounded-br-xl" src="/images/teamW.jpg?url" alt="mocsys">
           </swiper-slide>
         </swiper-container>
       </div>
     </div>
 
     <!-- Hero Section 3 -->
-    <div class="grid grid-cols-12 h-[85vh] mb-8">
-      <div class="col-span-12 md:col-span-6 order-1 md:order-2 h-[85vh]">
+    <div class="grid grid-cols-12 h-3/4 md:h-[85vh] -mb-16 md:mb-8">
+      <div class="col-span-12 md:col-span-6 order-2 md:order-1 h-3/4 md:h-[85vh]">
         <!--           :spaceBetween="30"
           :autoplay="{
             delay: 7000,
@@ -179,33 +179,33 @@
         >
           <swiper-slide class ="flex items-center justify-center">
 
-              <img class="h-full 2xl:h-full w-full xs:rounded-b-xl md:rounded-l-xl object-fill" src="/images/skoVENS.JPG?url" alt="Headshot">
+              <img class="h-full w-full rounded-b-xl md:rounded-l-xl md:rounded-br-none object-cover object-top" src="/images/skoVENS.JPG?url" alt="Headshot">
 
           </swiper-slide>
           <swiper-slide class="flex items-center justify-center">
 
             <!-- <div class=" overflow-hidden flex items-center justify-center"> -->
 
-              <img class="h-full 2xl:h-full w-full xs:rounded-b-xl md:rounded-l-xl object-fill" src="/images/luffy.JPG.png?url" alt="pirate king">
+              <img class="h-full w-full rounded-b-xl md:rounded-l-xl md:rounded-br-none object-cover" src="/images/luffy.JPG.png?url" alt="pirate king">
 
           </swiper-slide>
           <swiper-slide class="flex items-center justify-center">
 
-              <img class="h-full 2xl:h-full w-full xs:rounded-b-xl md:rounded-l-xl object-fill" src="/images/bron.jpg?url" alt="ravensXorioles">
+              <img class="h-full w-full rounded-b-xl md:rounded-l-xl md:rounded-br-none object-cover" src="/images/bron.jpg?url" alt="ravensXorioles">
 
 
           </swiper-slide>
 
           <swiper-slide>
             <img class="h-1/2 w-full object-cover md:rounded-tl-xl" src="/images/ravens.jpg?url" alt="walkout">
-            <img class="h-1/2 w-full object-cover xs:rounded-b-xl md:rounded-bl-xl" src="/images/fscseniors.JPG?url" alt="mocsys">
+            <img class="h-1/2 w-full object-cover rounded-b-xl md:rounded-bl-xl" src="/images/fscseniors.JPG?url" alt="mocsys">
           </swiper-slide>
 
         </swiper-container>
       </div>
-      <div class="col-span-12 md:col-span-6 h-[85vh] order-1 md:order-2 flex flex-col items-center justify-center bg-gray-700 xs:rounded-t-xl md:rounded-r-xl">
-        <h1 class="text-2xl font-bold m-8">Who am I really?</h1>
-        <p class="text-center m-4 normal-case">
+      <div class="col-span-12 md:col-span-6 h-[80vh] md:h-[85vh] order-1 md:order-2 flex flex-col items-center justify-center bg-gray-700 rounded-t-xl md:rounded-r-xl md:rounded-tl-none">
+        <h1 class="text-xl md:text-2xl font-bold m-8">Who am I really?</h1>
+        <p class="text-small md:text-large text-center m-4 normal-case">
           Avid Ravens fanatic, I am from baltimore so I have to fight the urge to screm "O" during every tune the national anthem is played.
           I love to play video games whether is be Madden, Elden Ring, or Balatro. I can always have a fun time where it is with my firends 
           or by myself. I also enjoy movies, tv shows, and anime. My favorite show all time would have to be One Piece. 
