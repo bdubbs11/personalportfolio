@@ -1,22 +1,22 @@
 <template>
-  <div class="flex flex-col min-h-screen items-center justify-center"> 
+  <div class="flex flex-col min-h-screen items-center justify-center mb-10"> 
     <div class="container grid grid-cols-16 min-w-screen">
       <div class="col-span-2"></div> <!-- left border with color can be deleted-->
       <!-- all the main info -->
-      <div class="text-left col-span-12 p-2 mt-2">
-        <div class = "grid grid-cols-16"> <!-- grid for the main info -->
-          <div class="col-span-10 pt-6"> <!-- left side -->
-            <h1 class="text-5xl pb-4 capitalize animate-slideIn-1">Hello, I'm Brandon.</h1> <!--animate-slideIn-1 -->
-            <h1 class="text-4xl pb-4 animate-slideIn-2">I'm an Aspiring <span class="text-4xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text">Software Developer.</span></h1> <!--animate-slideIn-2 -->
-            <h1 class="text-3xl pb-4 animate-slideIn-3">Welcome to my Personal Portfolio.</h1> <!--animate-slideIn-3 -->
+      <div class="text-center md:text-left col-span-12 p-2 mt-2">
+        <div class = "grid grid-cols-1 md:grid-cols-16"> <!-- grid for the main info -->
+          <div class="col-span-10 pt-6 order-2 md:order-1"> <!-- left side -->
+            <h1 class="text-3xl md:text-5xl pb-4 capitalize animate-slideIn-1">Hello, I'm Brandon.</h1> <!--animate-slideIn-1 -->
+            <h1 class="text-2xl md:text-4xl pb-4 animate-slideIn-2">I'm an Aspiring <span class="text-2xl md:text-4xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text">Software Developer.</span></h1> <!--animate-slideIn-2 -->
+            <h1 class="text-xl md:text-3xl pb-4 animate-slideIn-3">Welcome to my Personal Portfolio.</h1> <!--animate-slideIn-3 -->
 
             <div class="animate-slideIn-after">
-              <p class = "pb-4 text-large">I graduated from Florida Southern College with Magna Cum Laude Honors.</p>
-              <p class = "pb-4 text-large" > I have a specalization in Web Development and a passion for learning new <span> skills. </span></p>
+              <p class = "pb-4 text-md md:text-lg">I graduated from Florida Southern College with Magna Cum Laude Honors.</p>
+              <p class = "pb-4 text-md md:text-lg" >I have a specalization in Web Development and a passion for learning new <span> skills. </span></p>
             </div>
 
 
-            <div class="flex gap-4 text-3xl text-gray-600 pb-4 animate-slideIn-after">
+            <div class="flex gap-4 text-gray-600 pb-4 animate-slideIn-after justify-center md:justify-start items-center">
               <a href="https://github.com/bdubbs11" target="_blank" rel="noopener noreferrer">
                 <div class="w-8 h-8 bg-gradient-to-r from-black to-gray-500 mask-github transition-transform hover:scale-120 hover:shadow-md duration-300 ease-in-out"></div>
               </a>
@@ -36,7 +36,7 @@
           </a>  
 
           </div>
-          <div class="col-span-6 p-1 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full inline-block animate-slideIn-after"> <!-- hero image -->
+          <div class="col-span-6 p-1 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full inline-block animate-slideIn-after order-1 md:order-2"> <!-- hero image -->
             <img class="h-auto p-2 rounded-full animate-slideIn-after" src="/images/wilsonHEADSHOT.JPG?url" alt="hero image">
           </div>
         </div>

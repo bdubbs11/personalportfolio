@@ -30,8 +30,8 @@
 </script>
 
 <template>
-<div class="container grid grid-cols-16 min-w-screen min-h-screen pageFadeIn">
-  <!-- Left spacing -->
+<div class="container grid grid-cols-16 min-w-screen min-h-screen pageFadeIn -mb-22 md:mb-0">
+  <!-- Left spacing --> 
   <div class="col-span-2"></div>
 
   <!-- Main content -->

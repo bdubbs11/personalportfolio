@@ -44,36 +44,32 @@
 
 <template>
       <div class="flex flex-col min-h-screen pageFadeIn"> 
-        <div class="container grid grid-cols-16 min-w-screen flex-grow">
+        <div class="container grid grid-cols-1 md:grid-cols-16 min-w-screen flex-grow">
           <div class="col-span-2 "></div>
           <div class="col-span-12 my-6">
               <!-- this needs to be the png but it will be reservoirs text as of rn
               until i add more projects this will be fine for now -->
             <div class="mx-24 text-center">
-              <p class="flex items-center justify-center"><img class="rounded-l-xl object-fill h-1/2 w-1/2" :src="project.png" alt="Headshot"> </p>
+              <p class="flex items-center justify-center "><img class="h-full w-full md:h-1/2 md:w-1/2" :src="project.png" alt="project png"> </p>
 
 
               <!-- Introduction -->
-              <h2 class="text-2xl font-semibold mt-8 mb-2 mx-10">What is Reservoir?</h2>
+              <h2 class="text-xl md:text-2xl font-bold mt-8 mb-2 mx-10">What is {{ project.title }}?</h2>
               
-              <p class="text-center">
-                Reservoir is a web application designed to help users organize and track their media, connect with friends, share recommendations, 
-                and receive personalized AI-driven suggestions. Unlike existing platforms such as MyAnimeList, IMDb, and Letterboxd, Reservoir 
-                provides a more comprehensive, user-friendly experience tailored to individual preferences.
+              <p class="text-sm md:text-lg text-center">
+                {{ project.description}}
               </p>
 
               <!-- Development Context -->
-              <h2 class="text-2xl font-semibold mt-8 mb-2">Project Background</h2>
-              <p class="text-center">
-                Developed as part of my Senior Project (CSC4999) at Florida Southern College, Reservoir was built over several hundred hours 
-                alongside teammates Brandon Wilson and Axel Beaver. I served as the team leader, guiding the project from concept to completion 
-                and ensuring a seamless user experience and strong implementation of features.
+              <h2 class="text-xl md:text-2xl font-bold mt-8 mb-2">Project Background</h2>
+              <p class=" text-sm md:text-lg text-center">
+                  {{ project.background }}
               </p>
 
               <!-- UI Preview -->
-              <h2 class="text-2xl font-semibold mt-8 mb-2">A glimps into our website</h2>
-              <p class="text-center mb-4">
-                While Reservoir isn't public (yet?), you can check out the UI through the images below.
+              <h2 class="text-xl md:text-2xl font-bold mt-8 mb-2">A glimps into our website</h2>
+              <p class="text-sm md:text-lg text-center mb-4">
+                {{ project.preview }}
               </p>
             </div>
 
@@ -92,22 +88,22 @@
                   :navigation="true" 
                   class="h-1/2 w-3/4">
                   <swiper-slide>
-                    <img class="rounded-xl object-fill" src="/images/reservoir/reservoir-home.png" alt="home page">
+                    <img class="rounded-xl object-fill" :src="project.image1" alt="home page">
                   </swiper-slide>
                   <swiper-slide>
-                    <img class="rounded-xl object-fill" src="/images/reservoir/reservoir-sign-up.png" alt="sign up page">
+                    <img class="rounded-xl object-fill" :src="project.image2" alt="sign up page">
                   </swiper-slide>
                   <swiper-slide>
-                    <img class="rounded-xl object-fill" src="/images/reservoir/reservoir-my-reservoir.png" alt="my reservoir">
+                    <img class="rounded-xl object-fill" :src="project.image3" alt="my reservoir">
                   </swiper-slide>
                   <swiper-slide>
-                    <img class="rounded-xl object-fill" src="/images/reservoir/reservoir-search.png" alt="search">
+                    <img class="rounded-xl object-fill" :src="project.image4" alt="search">
                   </swiper-slide>
                   <swiper-slide>
-                    <img class="rounded-xl object-fill" src="/images/reservoir/reservoir-profile.png" alt="profile">
+                    <img class="rounded-xl object-fill" :src="project.image5" alt="profile">
                   </swiper-slide>
                   <swiper-slide>
-                    <img class="rounded-xl object-fill" src="/images/reservoir/reservoir-friends.png" alt="friends">
+                    <img class="rounded-xl object-fill" :src="project.image6" alt="friends">
                   </swiper-slide>
                 </swiper-container>
               </div>

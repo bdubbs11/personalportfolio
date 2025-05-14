@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
 import ProjectsView from '../views/ProjectsView.vue'
-import Reservoir from '../views/Reservoir.vue'
+import ProjectDisplay from '../views/ProjectDisplay.vue'
 
 // need to not have the loading screen run every time i switch tabs
 const router = createRouter({
@@ -24,9 +24,9 @@ const router = createRouter({
       component: AboutView,
     },
     {
-      path: '/reservoir/:id',
-      name: 'reservoir',
-      component: Reservoir,
+      path: '/project-display/:id',
+      name: 'project-display',
+      component: ProjectDisplay,
       props: true,
     },
   ],

@@ -4,6 +4,41 @@
     "title": "Reservoir",
     "png": "/images/res.png",
     "description": "Reservoir is a web application designed to help users organize and track their media, connect with friends, share recommendations, and receive personalized AI-driven suggestions. Unlike existing platforms such as MyAnimeList, IMDb, and Letterboxd, Reservoir provides a more comprehensive, user-friendly experience tailored to individual preferences.",
-    "background": "Developed as part of my Senior Project (CSC4999) at Florida Southern College, Reservoir was built over several hundred hours alongside teammates Brandon Wilson and Axel Beaver. I served as the team leader, guiding the project from concept to completion and ensuring a seamless user experience and strong implementation of features."
+    "background": "Developed as part of my Senior Project (CSC4999) at Florida Southern College, Reservoir was built over several hundred hours alongside teammates Aiden Redmond and Axel Beaver. My role focused on API design, database management, and feature implementation, contributing to both the technical foundation and brainstorming sessions that shaped core functionality.",
+    "preview": "While Reservoir isn't public (yet?), you can check out the UI through the images below.",
+    "image1": "/images/reservoir/reservoir-home.png",
+    "image2": "/images/reservoir/reservoir-sign-up.png",
+    "image3": "/images/reservoir/reservoir-my-reservoir.png",
+    "image4": "/images/reservoir/reservoir-search.png",
+    "image5": "/images/reservoir/reservoir-profile.png",
+    "image6": "/images/reservoir/reservoir-friends.png"
+  },
+  {
+    "id": 1,
+    "title": "To Be Continued",
+    "png": "/images/tbc.png",
+    "description": "There is no description until I finish this project. This is a placeholder.",
+    "background": "I want to provide the best of the best of my work, so I am making sure the projects fits the standards I have set.",
+    "preview": "Calm your horses I'll put something here soon. Here is more pictures of reservoir so my website doesn't crash.",
+    "image1": "/images/reservoir/reservoir-home.png",
+    "image2": "/images/reservoir/reservoir-sign-up.png",
+    "image3": "/images/reservoir/reservoir-my-reservoir.png",
+    "image4": "/images/reservoir/reservoir-search.png",
+    "image5": "/images/reservoir/reservoir-profile.png",
+    "image6": "/images/reservoir/reservoir-friends.png"
+  },
+  {
+    "id": 2,
+    "title": "Reservoir",
+    "png": "/images/res.png",
+    "description": "Reservoir is a web application designed to help users organize and track their media, connect with friends, share recommendations, and receive personalized AI-driven suggestions. Unlike existing platforms such as MyAnimeList, IMDb, and Letterboxd, Reservoir provides a more comprehensive, user-friendly experience tailored to individual preferences.",
+    "background": "Developed as part of my Senior Project (CSC4999) at Florida Southern College, Reservoir was built over several hundred hours alongside teammates Brandon Wilson and Axel Beaver. I served as the team leader, guiding the project from concept to completion and ensuring a seamless user experience and strong implementation of features.",
+    "preview": "Calm your horses I'll put something here soon. Here is more pictures fo reservoir so my website doesn't crash.",
+    "image1": "/images/reservoir/reservoir-home.png",
+    "image2": "/images/reservoir/reservoir-sign-up.png",
+    "image3": "/images/reservoir/reservoir-my-reservoir.png",
+    "image4": "/images/reservoir/reservoir-search.png",
+    "image5": "/images/reservoir/reservoir-profile.png",
+    "image6": "/images/reservoir/reservoir-friends.png"
   }
 ]
