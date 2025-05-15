@@ -50,25 +50,21 @@
               <!-- this needs to be the png but it will be reservoirs text as of rn
               until i add more projects this will be fine for now -->
             <div class="mx-24 text-center">
-              <p class="flex items-center justify-center "><img class="h-full w-full md:h-1/2 md:w-1/2" :src="project.png" alt="project png"> </p>
-
-
-              <!-- Introduction -->
-              <h2 class="text-xl md:text-2xl font-bold mt-8 mb-2 mx-10">What is {{ project.title }}?</h2>
+              <p class="flex items-center justify-center mb-12"><img class="h-full w-full md:h-1/2 md:w-1/2" :src="project.png" alt="project png"> </p>
               
-              <p class="text-sm md:text-lg text-center">
+              <p class="text-sm md:text-lg text-center font-inter">
                 {{ project.description}}
               </p>
 
               <!-- Development Context -->
-              <h2 class="text-xl md:text-2xl font-bold mt-8 mb-2">Project Background</h2>
-              <p class=" text-sm md:text-lg text-center">
+              <h2 class="text-xl md:text-2xl font-bold mt-8 mb-2 text-resblue">Project Background</h2>
+              <p class=" text-sm md:text-lg text-center font-inter">
                   {{ project.background }}
               </p>
 
               <!-- UI Preview -->
-              <h2 class="text-xl md:text-2xl font-bold mt-8 mb-2">A glimps into our website</h2>
-              <p class="text-sm md:text-lg text-center mb-4">
+              <h2 class="text-xl md:text-2xl font-bold mt-8 mb-2 text-resblue">A glimpse into our website</h2>
+              <p class="text-sm md:text-lg text-center mb-4 font-inter">
                 {{ project.preview }}
               </p>
             </div>
