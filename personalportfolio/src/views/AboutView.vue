@@ -77,20 +77,23 @@
       </swiper-container>
       </div>
       <div class="col-span-12 md:col-span-6 order-1 md:order-2 flex flex-col items-center justify-center bg-gray-700 rounded-t-xl md:rounded-r-xl md:rounded-tl-none h-full md:h-[85vh]">
-        <h1 class="text-xl md:text-2xl font-bold m-8">About Me</h1>
-        <p class="text-sm md:text-lg text-center mx-4 normal-case">
-        Hi, I’m a Computer Science grad from Florida Southern College, where I finished with Magna Cum Laude 
-        honors finishing with a 3.75 GPA. 
-        During college, I was also a team captain and 16-time NCAA Division II All-American swimmer. 
-        So I’ve learned a lot about discipline, leadership, and pushing myself through challenges.
+        <h1 class="text-xl md:text-2xl font-bold m-8 ml-12">About Me</h1>
+        <div class="text-sm md:text-base text-left mx-12 normal-case font-inter">
+        <p class="mb-2">- Graduated from Florida Southern College <br /> <span class="italic text-white/50">(Magna Cum Laude Honors - 3.75 GPA)</span></p>
+        <p class="mb-2">- 16-time NCAA DII All-American Swimmer & Team Captain</p>
 
-        On the tech side, I’ve worked on full-stack web projects and have experience with cloud platforms, 
-        RESTful APIs, and database management. I really enjoy building things that are both functional and user-friendly, 
-        and I’ve had the chance to work on apps from the ground up.
+        <hr class="text-white/30 my-4">
 
-        Right now, I’m looking for a software development role where I can keep learning, grow my skills, and be part of 
-        something meaningful.
+        <p class="mb-2">- Worked with cloud platforms, RESTful APIs, & databases</p>
+        <p class="mb-2">- I love building web projects that are function & user-friendly</p>
+
+        <hr class="text-white/30 my-4">
+
+        <p>
+            Right now, I’m looking for a software development role where I can keep learning, grow my skills, and be part of
+            something meaningful.
         </p>
+        </div>
       </div>
     </div>
 

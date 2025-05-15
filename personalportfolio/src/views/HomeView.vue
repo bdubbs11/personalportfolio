@@ -1,17 +1,16 @@
 <template>
-  <div class="flex flex-col min-h-screen items-center justify-center mb-10"> 
+  <div class="flex flex-col flex-1 min-h-screen items-center justify-center"> 
     <div class="container grid grid-cols-16 min-w-screen">
       <div class="col-span-2"></div> <!-- left border with color can be deleted-->
       <!-- all the main info -->
       <div class="text-center md:text-left col-span-12 p-2 mt-2">
         <div class = "grid grid-cols-1 md:grid-cols-16"> <!-- grid for the main info -->
           <div class="col-span-10 pt-6 order-2 md:order-1"> <!-- left side -->
-            <h1 class="text-3xl md:text-5xl pb-4 capitalize animate-slideIn-1">Hello, I'm Brandon.</h1> <!--animate-slideIn-1 -->
-            <h1 class="text-2xl md:text-4xl pb-4 animate-slideIn-2">I'm an Aspiring <span class="text-2xl md:text-4xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text">Software Developer.</span></h1> <!--animate-slideIn-2 -->
-            <h1 class="text-xl md:text-3xl pb-4 animate-slideIn-3">Welcome to my Personal Portfolio.</h1> <!--animate-slideIn-3 -->
+            <h1 class="text-3xl md:text-6xl pb-4 capitalize animate-slideIn-1">Hello, I'm Brandon.</h1> <!--animate-slideIn-1 -->
+            <h1 class="text-2xl md:text-4xl pb-12 animate-slideIn-2">I'm an Aspiring <span class="text-2xl md:text-4xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text">Software Developer.</span></h1> <!--animate-slideIn-2 -->
 
-            <div class="animate-slideIn-after">
-              <p class = "pb-4 text-md md:text-lg">I graduated from Florida Southern College with Magna Cum Laude Honors.</p>
+            <div class="animate-slideIn-after pb-4 font-inter">
+              <p class = "text-md md:text-lg">I graduated from Florida Southern College with Magna Cum Laude Honors.</p>
               <p class = "pb-4 text-md md:text-lg" >I have a specalization in Web Development and a passion for learning new <span> skills. </span></p>
             </div>
 
@@ -32,12 +31,13 @@
             </div>
 
           <a href="/images/files/wilson-newgrad-resume.pdf" download>
-            <button class="border rounded-full px-6 py-2 mt-2 bg-gradient-to-r from-blue-400 to-purple-500 border-none font-semibold transition-transform  hover:scale-110 duration-300 ease-in-out animate-slideIn-after"> Download Resume </button>
+            <button class="font-inter border rounded-full px-6 py-2 mt-2 bg-gradient-to-r from-blue-400 to-purple-500 border-none font-semibold transition-transform  hover:scale-110 duration-300 ease-in-out animate-slideIn-after"> Download Resume </button>
           </a>  
 
           </div>
-          <div class="col-span-6 p-1 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full inline-block animate-slideIn-after order-1 md:order-2"> <!-- hero image -->
-            <img class="h-auto p-2 rounded-full animate-slideIn-after" src="/images/wilsonHEADSHOT.JPG?url" alt="hero image">
+
+          <div class="h-9/10 w-auto col-span-6 p-1 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full inline-block animate-slideIn-after order-1 md:order-2"> <!-- hero image -->
+            <img class="p-2 rounded-full animate-slideIn-after" src="/images/wilsonHEADSHOT.JPG?url" alt="hero image">
           </div>
         </div>
         <!-- <p class = "normal-case "> Lorem ipsum dolor sit amet, consec</p> -->

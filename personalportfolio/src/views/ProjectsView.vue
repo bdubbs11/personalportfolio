@@ -20,7 +20,7 @@ export default defineComponent({
     <div class="container grid grid-cols-16 min-w-screen flex-grow">
       <div class="col-span-2 "></div> <!-- left border with color can be deleted -->
 
-      <div class="col-span-12  gap-4 my-6">
+      <div class="col-span-12 gap-4 my-6">
         <!-- grid grid-rows-2 -->
         <!-- Top Section for Title -->
         <div class="py-4 text-center">
@@ -38,42 +38,26 @@ export default defineComponent({
                 <p class="flex items-center justify-center"><img class="rounded-xl object-fill h-3/5 w-3/5" :src="project[0].png" alt="reservoir png logo"> </p>
                 <!-- <p class="text-4xl focus:outline-none bg-gradient-to-r from-resblue to-resaqua text-transparent bg-clip-text font-young-serif">Reservoir</p> -->
               </div>
-              <p class="text-md mt-6">A mass multi media database & tracker</p>
-              <p class="text-sm mt-1">Senior Project - Fall 2024</p>
+              <div class="font-inter">
+                  <p class="text-md mt-6">A mass multi media database & tracker</p>
+                  <p class="text-sm mt-1">Senior Project - Fall 2024</p>
+              </div>
             </div>
           </router-link>
 
           <!-- 2nd Card -->
-          <router-link :to="{ name: 'project-display', params: { id: 1 } }">
-            <div class="rounded-lg p-4 text-center flex flex-col justify-center items-center h-full">
-             <div class="hover:bg-gray-900 p-2 rounded cursor-pointer">
-                <p class="flex items-center justify-center"><img class="rounded-xl object-fill h-3/5 w-3/5" :src="project[1].png" alt="reservoir png logo"> </p>
-                <!-- <p class="text-4xl focus:outline-none bg-gradient-to-r from-resblue to-resaqua text-transparent bg-clip-text font-young-serif">Reservoir</p> -->
-              </div>
-              <p class="text-md mt-6">
-                I want another notable idea here
-              </p>
-              <p class="text-sm mt-1">
-                new grad – 2025 – random project
-              </p>
+            <div class="flex justify-center">
+                <div class="rounded-lg p-4 text-center flex flex-col justify-center items-center h-3/5 w-3/5">
+                    <p class="flex items-center justify-center"><img class="rounded-xl object-fill" :src="project[1].png" alt="to be continued logo"> </p>
+                </div>
             </div>
-          </router-link>
 
           <!-- 3rd Card (your original) -->
-          <router-link :to="{ name: 'project-display', params: { id: 1 } }">
-            <div class="rounded-lg p-4 text-center flex flex-col justify-center items-center h-full">
-              <div class="hover:bg-gray-900 p-2 rounded cursor-pointer">
-                <p class="flex items-center justify-center"><img class="rounded-xl object-fill h-3/5 w-3/5" :src="project[1].png" alt="to be continued logo"> </p>
-                <!-- <p class="text-4xl focus:outline-none bg-gradient-to-r from-resblue to-resaqua text-transparent bg-clip-text font-young-serif">Reservoir</p> -->
-              </div>
-              <p class="text-md mt-6">
-                Another Idea to put here later
-              </p>
-              <p class="text-sm mt-1">
-                new grad – 2025 – random project
-              </p>
+            <div class="flex justify-center">
+                <div class="rounded-lg p-4 text-center flex flex-col justify-center items-center h-3/5 w-3/5">
+                    <p class="flex items-center justify-center"><img class="rounded-xl object-fill" :src="project[1].png" alt="to be continued logo"> </p>
+                </div>
             </div>
-          </router-link>
           </div>
         </div>
       </div>
