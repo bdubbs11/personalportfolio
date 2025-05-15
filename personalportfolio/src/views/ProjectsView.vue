@@ -34,7 +34,7 @@ export default defineComponent({
             <!-- 1st Card -->
           <router-link :to="{ name: 'project-display', params: { id: 0 } }">
             <div class="rounded-lg p-4 text-center flex flex-col justify-center items-center h-full">
-              <div class="hover:bg-gray-900 p-2 rounded cursor-pointer">
+              <div class="hover:bg-gray-900 p-2 rounded cursor-pointer ease-in-out duration-300">
                 <p class="flex items-center justify-center"><img class="rounded-xl object-fill h-3/5 w-3/5" :src="project[0].png" alt="reservoir png logo"> </p>
                 <!-- <p class="text-4xl focus:outline-none bg-gradient-to-r from-resblue to-resaqua text-transparent bg-clip-text font-young-serif">Reservoir</p> -->
               </div>

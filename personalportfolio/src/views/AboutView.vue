@@ -43,6 +43,10 @@
       <div class="col-span-12 md:col-span-6 order-2 md:order-1 h-full md:h-[85vh] ">
 
       <swiper-container 
+        :style="{
+          '--swiper-navigation-color': '#fff',
+          '--swiper-pagination-color': '#fff',
+        }"
         :effect="fade"
         :modules="modules"
         :loop="true"
@@ -107,7 +111,7 @@
 
           <div class="text-sm md:text-base text-left mx-12 normal-case font-inter">
             <p class="mb-2">- I’ve been swimming competitively since I was 8, starting with local YMCAs and eventually joining Eagle Swim Team</p>
-            <p class="mb-2">- <a href="https://swimswam.com/florida-southern-scores-commitment-from-2-sport-athlete-brandon-wilson/#:~:text=High%20school%20senior%20Brandon%20Wilson,I%20have%20had%20with%20Eagles." target="_blank" class="text-blue-500 underline">Committed to swim at Florida Southern College</a></p>
+            <p class="mb-2 text-white">- <a href="https://swimswam.com/florida-southern-scores-commitment-from-2-sport-athlete-brandon-wilson/#:~:text=High%20school%20senior%20Brandon%20Wilson,I%20have%20had%20with%20Eagles." target="_blank" class="underline hover:text-white/50 ease-in-out duration-300">Committed to swim at Florida Southern College</a></p>
             <hr class="text-white/30 my-4">
             <p class="mb-2">- Served as a 2x Team Captain, earned Most Improved twice, and was named Team MVP my senior year</p>
             <p class="mb-2">- Qualified for NCAA Nationals in multiple events; my best placement was 3rd in the 100 back my senior year</p>
@@ -120,6 +124,10 @@
       <div class="col-span-12 md:col-span-6 order-1 md:order-2 h-full md:h-[85vh]">
         <!-- <img class="h-auto p-10 " src="/images/wilsonSSC.JPG?url" alt="Brandon Wilson Wins 100 Back SSC Champ"> -->
         <swiper-container 
+          :style="{
+            '--swiper-navigation-color': '#fff',
+            '--swiper-pagination-color': '#fff',
+          }"
           :effect="fade"
           :modules="modules"
           :loop="true"
@@ -167,6 +175,10 @@
           :modules="modules"
           class="h-full w-full" -->
         <swiper-container 
+          :style="{
+            '--swiper-navigation-color': '#fff',
+            '--swiper-pagination-color': '#fff',
+          }"
           :effect="fade"
           :modules="modules"
           :loop="true"

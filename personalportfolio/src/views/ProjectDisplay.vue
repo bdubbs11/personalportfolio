@@ -71,7 +71,11 @@
 
               <!-- carasouel of images of reservoir -->
               <div class="flex items-center justify-center mt-10">
-                <swiper-container 
+                <swiper-container
+                  :style="{
+                    '--swiper-navigation-color': '#fff',
+                    '--swiper-pagination-color': '#fff',
+                  }" 
                   :effect="fade"
                   :modules="modules"
                   :loop="true"

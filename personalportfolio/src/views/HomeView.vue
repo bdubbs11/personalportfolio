@@ -5,12 +5,12 @@
       <!-- all the main info -->
       <div class="text-center md:text-left col-span-12 p-2 mt-2">
         <div class = "grid grid-cols-1 md:grid-cols-16"> <!-- grid for the main info -->
-          <div class="col-span-10 pt-6 order-2 md:order-1"> <!-- left side -->
+          <div class="sm:col-span-8 lg:col-span-10 pt-6 order-2 md:order-1"> <!-- left side -->
             <h1 class="text-3xl md:text-6xl pb-4 capitalize animate-slideIn-1">Hello, I'm Brandon.</h1> <!--animate-slideIn-1 -->
             <h1 class="text-2xl md:text-4xl pb-12 animate-slideIn-2">I'm an Aspiring <span class="text-2xl md:text-4xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text">Software Developer.</span></h1> <!--animate-slideIn-2 -->
 
             <div class="animate-slideIn-after pb-4 font-inter">
-              <p class = "text-md md:text-lg">I graduated from Florida Southern College with Magna Cum Laude Honors.</p>
+              <p class = "pb-2 md:pb-0 text-md md:text-lg">I graduated from Florida Southern College with Magna Cum Laude Honors.</p>
               <p class = "pb-4 text-md md:text-lg" >I have a specalization in Web Development and a passion for learning new <span> skills. </span></p>
             </div>
 
@@ -36,7 +36,7 @@
 
           </div>
            <!-- hero image -->
-          <div class="col-span-8 md:h-9/10 md:w-9/10 md:col-span-6 animate-slideIn-after order-1 md:order-2 md:ml-4 flex items-center justify-center"> <!-- hero image -->
+          <div class="sm:col-span-8 md:h-9/10 md:w-9/10 lg:col-span-6 animate-slideIn-after order-1 md:order-2 md:ml-4 flex items-center justify-center"> <!-- hero image -->
               <div class="p-1 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full">
                 <img class="p-2 rounded-full animate-slideIn-after" src="/images/wilsonHEADSHOT.JPG?url" alt="hero image">
               </div>
@@ -99,15 +99,15 @@
   animation-delay: 1.2s;
   opacity: 0;
 }
-.animate-slideIn-3 {
+/* .animate-slideIn-3 {
   animation: slideIn 1s ease-in forwards;
   animation-delay: 2.4s;
   opacity: 0;
-}
+} */
 
 .animate-slideIn-after {
   animation: slideIn 1s ease-in forwards;
-  animation-delay: 4s;
+  animation-delay: 2.4s; /* depends if using animate slide 3 or not */
   opacity: 0;
 }
 
