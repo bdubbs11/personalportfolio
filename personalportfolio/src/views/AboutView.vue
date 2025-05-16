@@ -165,15 +165,6 @@
     <!-- Hero Section 3 -->
     <div class="grid grid-cols-12 md:grid-rows-1 grid-rows-2 h-7/8 my-auto md:h-[85vh] md:mb-8">
       <div class="col-span-12 md:col-span-6 order-2 md:order-1 h-full md:h-[85vh]">
-        <!--           :spaceBetween="30"
-          :autoplay="{
-            delay: 7000,
-            disableOnInteraction: false,
-          }"
-          :pagination="true"
-          :navigation="true"
-          :modules="modules"
-          class="h-full w-full" -->
         <swiper-container 
           :style="{
             '--swiper-navigation-color': '#fff',
