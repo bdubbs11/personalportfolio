@@ -88,22 +88,22 @@
                   :navigation="true" 
                   class="h-1/2 w-3/4">
                   <swiper-slide>
-                    <img class="rounded-xl object-fill" :src="project.image1" alt="home page">
+                    <img loading="lazy" @load="$event.target.classList.add('opacity-100')" class="rounded-xl object-fill transition-opacity duration-300 opacity-0" :src="project.image1" alt="home page">
                   </swiper-slide>
                   <swiper-slide>
-                    <img class="rounded-xl object-fill" :src="project.image2" alt="sign up page">
+                    <img loading="lazy" @load="$event.target.classList.add('opacity-100')" class="rounded-xl object-fill transition-opacity duration-300 opacity-0" :src="project.image2" alt="sign up page">
                   </swiper-slide>
                   <swiper-slide>
-                    <img class="rounded-xl object-fill" :src="project.image3" alt="my reservoir">
+                    <img loading="lazy" @load="$event.target.classList.add('opacity-100')" class="rounded-xl object-fill transition-opacity duration-300 opacity-0" :src="project.image3" alt="my reservoir">
                   </swiper-slide>
                   <swiper-slide>
-                    <img class="rounded-xl object-fill" :src="project.image4" alt="search">
+                    <img loading="lazy" @load="$event.target.classList.add('opacity-100')" class="rounded-xl object-fill transition-opacity duration-300 opacity-0" :src="project.image4" alt="search">
                   </swiper-slide>
                   <swiper-slide>
-                    <img class="rounded-xl object-fill" :src="project.image5" alt="profile">
+                    <img loading="lazy" @load="$event.target.classList.add('opacity-100')"  class="rounded-xl object-fill transition-opacity duration-300 opacity-0" :src="project.image5" alt="profile">
                   </swiper-slide>
                   <swiper-slide>
-                    <img class="rounded-xl object-fill" :src="project.image6" alt="friends">
+                    <img loading="lazy" @load="$event.target.classList.add('opacity-100')" class="rounded-xl object-fill transition-opacity duration-300 opacity-0" :src="project.image6" alt="friends">
                   </swiper-slide>
                 </swiper-container>
               </div>

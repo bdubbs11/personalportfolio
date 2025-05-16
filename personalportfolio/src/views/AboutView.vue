@@ -60,23 +60,23 @@
         class="h-full w-full">
       <swiper-slide class ="flex items-center justify-center">
 
-          <img class="h-full w-full rounded-b-xl md:rounded-l-xl md:rounded-br-none object-cover" src="/images/gradpics.jpg?url" alt="Headshot">
+          <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-full w-full rounded-b-xl md:rounded-l-xl md:rounded-br-none object-cover transition-opacity duration-300 opacity-0" src="/images/gradpics.jpg?url" alt="Headshot">
 
         </swiper-slide>
         <swiper-slide class="flex items-center justify-center">
 
-          <img class="h-full w-full rounded-b-xl md:rounded-l-xl md:rounded-br-none object-cover" src="/images/wilsonSSC.JPG?url" alt="Brandon Wilson Wins 100 Back SSC Champ">
+          <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-full w-full rounded-b-xl md:rounded-l-xl md:rounded-br-none object-cover transition-opacity duration-300 opacity-0" src="/images/wilsonSSC.JPG?url" alt="Brandon Wilson Wins 100 Back SSC Champ">
 
         </swiper-slide>
         <swiper-slide class="flex items-center justify-center">
 
-          <img class="h-full w-full rounded-b-xl md:rounded-l-xl md:rounded-br-none object-cover" src="/images/grrad.jpg?url" alt="brandonXaiden">
+          <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-full w-full rounded-b-xl md:rounded-l-xl md:rounded-br-none object-cover transition-opacity duration-300 opacity-0" src="/images/grrad.jpg?url" alt="brandonXaiden">
 
         </swiper-slide>
 
         <swiper-slide class="flex items-center justify-center">
 
-          <img class="h-full w-full rounded-b-xl md:rounded-l-xl md:rounded-br-none object-cover object-bottom" src="/images/pole.JPG?url" alt="brandonXaiden">
+          <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-full w-full rounded-b-xl md:rounded-l-xl md:rounded-br-none object-cover object-bottom transition-opacity duration-300 opacity-0" src="/images/pole.JPG?url" alt="brandonXaiden">
 
         </swiper-slide>
 
@@ -142,21 +142,21 @@
         ">
           <!--  border only top and then border only-->
           <swiper-slide>
-            <img class="h-1/2 w-full object-cover md:rounded-tr-xl" src="/images/wave.JPG?url" alt="wave">
+            <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-1/2 w-full object-cover md:rounded-tr-xl transition-opacity duration-300 opacity-0" src="/images/wave.JPG?url" alt="wave">
             <!-- xs:rounded-b-xl md:rounded-l-xl -->
-            <img class="h-1/2 w-full object-cover rounded-b-xl md:rounded-br-xl" src="/images/free.JPG?url" alt="freestyletwin">
+            <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-1/2 w-full object-cover rounded-b-xl md:rounded-br-xl transition-opacity duration-300 opacity-0" src="/images/free.JPG?url" alt="freestyletwin">
           </swiper-slide>
           <swiper-slide>
-            <img class="h-1/2 w-full object-cover md:rounded-tr-xl" src="/images/walkout.JPG?url" alt="walkout">
-            <img class="h-1/2 w-full object-cover rounded-b-xl md:rounded-br-xl" src="/images/firstW.JPG?url" alt="mocsys">
+            <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-1/2 w-full object-cover md:rounded-tr-xl transition-opacity duration-300 opacity-0" src="/images/walkout.JPG?url" alt="walkout">
+            <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-1/2 w-full object-cover rounded-b-xl md:rounded-br-xl transition-opacity duration-300 opacity-0" src="/images/firstW.JPG?url" alt="mocsys">
           </swiper-slide>
           <swiper-slide>
-            <img class="h-1/2 w-full object-cover md:rounded-tr-xl" src="/images/smile.JPG?url" alt="walkout">
-            <img class="h-1/2 w-full object-cover rounded-b-xl md:rounded-br-xl" src="/images/back.JPG?url" alt="mocsys">
+            <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-1/2 w-full object-cover md:rounded-tr-xl transition-opacity duration-300 opacity-0" src="/images/smile.JPG?url" alt="walkout">
+            <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-1/2 w-full object-cover rounded-b-xl md:rounded-br-xl transition-opacity duration-300 opacity-0" src="/images/back.JPG?url" alt="mocsys">
           </swiper-slide>
           <swiper-slide>
-            <img class="h-1/2 w-full object-cover md:rounded-tr-xl" src="/images/soloW.jpg?url" alt="walkout">
-            <img class="h-1/2 w-full object-cover rounded-b-xl md:rounded-br-xl" src="/images/teamW.jpg?url" alt="mocsys">
+            <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-1/2 w-full object-cover md:rounded-tr-xl transition-opacity duration-300 opacity-0" src="/images/soloW.jpg?url" alt="walkout">
+            <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-1/2 w-full object-cover rounded-b-xl md:rounded-br-xl transition-opacity duration-300 opacity-0" src="/images/teamW.jpg?url" alt="mocsys">
           </swiper-slide>
         </swiper-container>
       </div>
@@ -184,26 +184,26 @@
         >
           <swiper-slide class ="flex items-center justify-center">
 
-              <img class="h-full w-full rounded-b-xl md:rounded-l-xl md:rounded-br-none object-cover object-top" src="/images/skoVENS.JPG?url" alt="Headshot">
+              <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-full w-full rounded-b-xl md:rounded-l-xl md:rounded-br-none object-cover object-top transition-opacity duration-300 opacity-0" src="/images/skoVENS.JPG?url" alt="Headshot">
 
           </swiper-slide>
           <swiper-slide class="flex items-center justify-center">
 
             <!-- <div class=" overflow-hidden flex items-center justify-center"> -->
 
-              <img class="h-full w-full rounded-b-xl md:rounded-l-xl md:rounded-br-none object-cover" src="/images/luffy.JPG.png?url" alt="pirate king">
+              <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-full w-full rounded-b-xl md:rounded-l-xl md:rounded-br-none object-cover transition-opacity duration-300 opacity-0" src="/images/luffy.JPG.png?url" alt="pirate king">
 
           </swiper-slide>
           <swiper-slide class="flex items-center justify-center">
 
-              <img class="h-full w-full rounded-b-xl md:rounded-l-xl md:rounded-br-none object-cover" src="/images/bron.jpg?url" alt="ravensXorioles">
+              <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-full w-full rounded-b-xl md:rounded-l-xl md:rounded-br-none object-cover transition-opacity duration-300 opacity-0" src="/images/bron.jpg?url" alt="ravensXorioles">
 
 
           </swiper-slide>
 
           <swiper-slide>
-            <img class="h-1/2 w-full object-cover md:rounded-tl-xl" src="/images/ravens.jpg?url" alt="walkout">
-            <img class="h-1/2 w-full object-cover rounded-b-xl md:rounded-bl-xl" src="/images/fscseniors.JPG?url" alt="mocsys">
+            <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-1/2 w-full object-cover md:rounded-tl-xl transition-opacity duration-300 opacity-0" src="/images/ravens.jpg?url" alt="walkout">
+            <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-1/2 w-full object-cover rounded-b-xl md:rounded-bl-xl transition-opacity duration-300 opacity-0" src="/images/fscseniors.JPG?url" alt="mocsys">
           </swiper-slide>
 
         </swiper-container>
