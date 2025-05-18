@@ -6,12 +6,12 @@
     "description": "Reservoir is a web application designed to help users organize and track their media, connect with friends, share recommendations, and receive personalized AI-driven suggestions. Unlike existing platforms such as MyAnimeList, IMDb, and Letterboxd, Reservoir provides a more comprehensive, user-friendly experience tailored to individual preferences.",
     "background": "Developed as part of my Senior Project (CSC4999) at Florida Southern College, Reservoir was built over several hundred hours alongside teammates Aiden Redmond and Axel Beaver. My role focused on API design, database management, and feature implementation, contributing to both the technical foundation and brainstorming sessions that shaped core functionality.",
     "preview": "While Reservoir isn't public (yet?), you can check out the UI through the images below.",
-    "image1": "/images/reservoir/reservoir-home.png",
-    "image2": "/images/reservoir/reservoir-sign-up.png",
-    "image3": "/images/reservoir/reservoir-my-reservoir.png",
-    "image4": "/images/reservoir/reservoir-search.png",
-    "image5": "/images/reservoir/reservoir-profile.png",
-    "image6": "/images/reservoir/reservoir-friends.png"
+    "image1": "https://res.cloudinary.com/dnwp8f5uy/image/upload/v1747587067/reservoir-home_ncuony.png",
+    "image2": "https://res.cloudinary.com/dnwp8f5uy/image/upload/v1747587067/reservoir-sign-up_zyekud.png",
+    "image3": "https://res.cloudinary.com/dnwp8f5uy/image/upload/v1747587067/reservoir-my-reservoir_c2gktu.png",
+    "image4": "https://res.cloudinary.com/dnwp8f5uy/image/upload/v1747587068/reservoir-search_b26eta.png",
+    "image5": "https://res.cloudinary.com/dnwp8f5uy/image/upload/v1747587068/reservoir-profile_i72mwi.png",
+    "image6": "https://res.cloudinary.com/dnwp8f5uy/image/upload/v1747587067/reservoir-friends_psvuh4.png"
   },
   {
     "id": 1,

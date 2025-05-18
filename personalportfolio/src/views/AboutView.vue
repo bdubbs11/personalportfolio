@@ -60,23 +60,24 @@
         class="h-full w-full">
       <swiper-slide class ="flex items-center justify-center">
 
-          <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-full w-full rounded-b-xl md:rounded-l-xl md:rounded-br-none object-cover transition-opacity duration-300 opacity-0" src="/images/gradpics.jpg?url" alt="Headshot">
+           <!-- preload the first image -->
+          <img  rel="preload" class="h-full w-full rounded-b-xl md:rounded-l-xl md:rounded-br-none object-cover transition-opacity duration-300" src="https://res.cloudinary.com/dnwp8f5uy/image/upload/v1747587104/gradpics_ctcnwg.jpg" alt="Headshot">
 
         </swiper-slide>
         <swiper-slide class="flex items-center justify-center">
 
-          <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-full w-full rounded-b-xl md:rounded-l-xl md:rounded-br-none object-cover transition-opacity duration-300 opacity-0" src="/images/wilsonSSC.JPG?url" alt="Brandon Wilson Wins 100 Back SSC Champ">
+          <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-full w-full rounded-b-xl md:rounded-l-xl md:rounded-br-none object-cover transition-opacity duration-300 opacity-0" src="https://res.cloudinary.com/dnwp8f5uy/image/upload/v1747587106/wilsonSSC_vtjtdp.jpg" alt="Brandon Wilson Wins 100 Back SSC Champ">
 
         </swiper-slide>
         <swiper-slide class="flex items-center justify-center">
 
-          <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-full w-full rounded-b-xl md:rounded-l-xl md:rounded-br-none object-cover transition-opacity duration-300 opacity-0" src="/images/grrad.jpg?url" alt="brandonXaiden">
+          <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-full w-full rounded-b-xl md:rounded-l-xl md:rounded-br-none object-cover transition-opacity duration-300 opacity-0" src="https://res.cloudinary.com/dnwp8f5uy/image/upload/v1747587102/grrad_v62y4g.jpg" alt="brandonXaiden">
 
         </swiper-slide>
 
         <swiper-slide class="flex items-center justify-center">
 
-          <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-full w-full rounded-b-xl md:rounded-l-xl md:rounded-br-none object-cover object-bottom transition-opacity duration-300 opacity-0" src="/images/pole.JPG?url" alt="brandonXaiden">
+          <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-full w-full rounded-b-xl md:rounded-l-xl md:rounded-br-none object-cover object-bottom transition-opacity duration-300 opacity-0" src="https://res.cloudinary.com/dnwp8f5uy/image/upload/v1747587103/pole_dre8md.jpg" alt="brandonXaiden">
 
         </swiper-slide>
 
@@ -116,7 +117,7 @@
             <p class="mb-2">- Served as a 2x Team Captain, earned Most Improved twice, and was named Team MVP my senior year</p>
             <p class="mb-2">- Qualified for NCAA Nationals in multiple events; my best placement was 3rd in the 100 back my senior year</p>
             <hr class="text-white/30 my-4">
-            <p>Swimming has been a huge part of my life it’s taught me discipline, leadership, and given me some of my best memories. Thanks to everyone that I have met along the joureny.</p>
+            <p>Swimming has been a huge part of my life it’s taught me discipline, leadership, and given me some of my best memories. Thanks to everyone that I have met along the journey.</p>
           </div>
 
 
@@ -142,21 +143,21 @@
         ">
           <!--  border only top and then border only-->
           <swiper-slide>
-            <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-1/2 w-full object-cover md:rounded-tr-xl transition-opacity duration-300 opacity-0" src="/images/wave.JPG?url" alt="wave">
+            <img  rel="preload"  class="h-1/2 w-full object-cover md:rounded-tr-xl transition-opacity duration-300 " src="https://res.cloudinary.com/dnwp8f5uy/image/upload/v1747587105/wave_v74l9x.jpg" alt="wave">
             <!-- xs:rounded-b-xl md:rounded-l-xl -->
-            <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-1/2 w-full object-cover rounded-b-xl md:rounded-br-xl transition-opacity duration-300 opacity-0" src="/images/free.JPG?url" alt="freestyletwin">
+            <img  rel="preload"  class="h-1/2 w-full object-cover rounded-b-xl md:rounded-br-xl transition-opacity duration-300 " src="https://res.cloudinary.com/dnwp8f5uy/image/upload/v1747587102/free_uj7dmn.jpg" alt="freestyletwin">
           </swiper-slide>
           <swiper-slide>
-            <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-1/2 w-full object-cover md:rounded-tr-xl transition-opacity duration-300 opacity-0" src="/images/walkout.JPG?url" alt="walkout">
-            <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-1/2 w-full object-cover rounded-b-xl md:rounded-br-xl transition-opacity duration-300 opacity-0" src="/images/firstW.JPG?url" alt="mocsys">
+            <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-1/2 w-full object-cover md:rounded-tr-xl transition-opacity duration-300 opacity-0" src="https://res.cloudinary.com/dnwp8f5uy/image/upload/v1747587105/walkout_it1ult.jpg" alt="walkout">
+            <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-1/2 w-full object-cover rounded-b-xl md:rounded-br-xl transition-opacity duration-300 opacity-0" src="https://res.cloudinary.com/dnwp8f5uy/image/upload/v1747587100/firstW_fnptj3.jpg" alt="firstw">
           </swiper-slide>
           <swiper-slide>
-            <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-1/2 w-full object-cover md:rounded-tr-xl transition-opacity duration-300 opacity-0" src="/images/smile.JPG?url" alt="walkout">
-            <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-1/2 w-full object-cover rounded-b-xl md:rounded-br-xl transition-opacity duration-300 opacity-0" src="/images/back.JPG?url" alt="mocsys">
+            <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-1/2 w-full object-cover md:rounded-tr-xl transition-opacity duration-300 opacity-0" src="https://res.cloudinary.com/dnwp8f5uy/image/upload/v1747587105/smile_grlevk.jpg" alt="walkout">
+            <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-1/2 w-full object-cover rounded-b-xl md:rounded-br-xl transition-opacity duration-300 opacity-0" src="https://res.cloudinary.com/dnwp8f5uy/image/upload/v1747590560/back_eneoui.jpg" alt="backstroke lead">
           </swiper-slide>
           <swiper-slide>
-            <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-1/2 w-full object-cover md:rounded-tr-xl transition-opacity duration-300 opacity-0" src="/images/soloW.jpg?url" alt="walkout">
-            <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-1/2 w-full object-cover rounded-b-xl md:rounded-br-xl transition-opacity duration-300 opacity-0" src="/images/teamW.jpg?url" alt="mocsys">
+            <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-1/2 w-full object-cover md:rounded-tr-xl transition-opacity duration-300 opacity-0" src="https://res.cloudinary.com/dnwp8f5uy/image/upload/v1747587106/soloW_hqhghw.jpg" alt="walkout">
+            <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-1/2 w-full object-cover rounded-b-xl md:rounded-br-xl transition-opacity duration-300 opacity-0" src="https://res.cloudinary.com/dnwp8f5uy/image/upload/v1747587105/teamW_bivh9v.jpg" alt="team win">
           </swiper-slide>
         </swiper-container>
       </div>
@@ -182,28 +183,32 @@
           :navigation="true"
           class="h-full w-full"
         >
-          <swiper-slide class ="flex items-center justify-center">
-
-              <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-full w-full rounded-b-xl md:rounded-l-xl md:rounded-br-none object-cover object-top transition-opacity duration-300 opacity-0" src="/images/skoVENS.JPG?url" alt="Headshot">
-
+          <swiper-slide class="flex items-center justify-center">
+            <img
+              rel="preload"
+              class="h-full w-full rounded-b-xl md:rounded-l-xl md:rounded-br-none object-cover object-top transition-opacity duration-300"
+              src="https://res.cloudinary.com/dnwp8f5uy/image/upload/f_auto,q_auto/v1747590560/skoVens_fapfwi.jpg"
+              alt="Headshot"
+            />
           </swiper-slide>
+
           <swiper-slide class="flex items-center justify-center">
 
             <!-- <div class=" overflow-hidden flex items-center justify-center"> -->
 
-              <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-full w-full rounded-b-xl md:rounded-l-xl md:rounded-br-none object-cover transition-opacity duration-300 opacity-0" src="/images/luffy.JPG.png?url" alt="pirate king">
+              <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-full w-full rounded-b-xl md:rounded-l-xl md:rounded-br-none object-cover transition-opacity duration-300 opacity-0" src="https://res.cloudinary.com/dnwp8f5uy/image/upload/v1747587103/luffy.JPG_clcw9n.png" alt="pirate king">
 
           </swiper-slide>
           <swiper-slide class="flex items-center justify-center">
 
-              <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-full w-full rounded-b-xl md:rounded-l-xl md:rounded-br-none object-cover transition-opacity duration-300 opacity-0" src="/images/bron.jpg?url" alt="ravensXorioles">
+              <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-full w-full rounded-b-xl md:rounded-l-xl md:rounded-br-none object-cover transition-opacity duration-300 opacity-0" src="https://res.cloudinary.com/dnwp8f5uy/image/upload/v1747587102/bron_ydegem.jpg" alt="ravensXorioles">
 
 
           </swiper-slide>
 
           <swiper-slide>
-            <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-1/2 w-full object-cover md:rounded-tl-xl transition-opacity duration-300 opacity-0" src="/images/ravens.jpg?url" alt="walkout">
-            <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-1/2 w-full object-cover rounded-b-xl md:rounded-bl-xl transition-opacity duration-300 opacity-0" src="/images/fscseniors.JPG?url" alt="mocsys">
+            <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-1/2 w-full object-cover md:rounded-tl-xl transition-opacity duration-300 opacity-0" src="https://res.cloudinary.com/dnwp8f5uy/image/upload/v1747587103/ravens_fhlg4g.jpg" alt="walkout">
+            <img  loading="lazy" @load="$event.target.classList.add('opacity-100')" class="h-1/2 w-full object-cover rounded-b-xl md:rounded-bl-xl transition-opacity duration-300 opacity-0" src="https://res.cloudinary.com/dnwp8f5uy/image/upload/v1747587103/fscseniors_wx8e2t.jpg" alt="mocsys">
           </swiper-slide>
 
         </swiper-container>

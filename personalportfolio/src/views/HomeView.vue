@@ -38,7 +38,7 @@
            <!-- hero image -->
           <div class="sm:col-span-8 md:h-9/10 md:w-9/10 lg:col-span-6 animate-slideIn-after order-1 md:order-2 md:ml-4 flex items-center justify-center"> <!-- hero image -->
               <div class="p-1 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full">
-                <img class="p-2 rounded-full animate-slideIn-after" src="/images/wilsonHEADSHOT.JPG?url" alt="hero image">
+                <img class="p-2 rounded-full animate-slideIn-after" src="https://res.cloudinary.com/dnwp8f5uy/image/upload/v1747587105/wilsonHEADSHOT_omgfbr.jpg" alt="hero image">
               </div>
           </div>
         </div>
