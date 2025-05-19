@@ -11,7 +11,7 @@
 
             <div class="animate-slideIn-after pb-4 font-inter">
               <p class = "pb-2 md:pb-0 text-md md:text-lg">I graduated from Florida Southern College with Magna Cum Laude Honors.</p>
-              <p class = "pb-4 text-md md:text-lg" >I have a specalization in Web Development and a passion for learning new <span> skills. </span></p>
+              <p class = "pb-4 text-md md:text-lg" >I have a specialization in Web Development and a passion for learning new <span> skills. </span></p>
             </div>
 
 
