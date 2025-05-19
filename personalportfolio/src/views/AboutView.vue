@@ -92,7 +92,7 @@
           <hr class="text-white/30 my-4">
 
           <p class="mb-2">- Worked with cloud platforms, RESTful APIs, & databases</p>
-          <p class="mb-2">- I love building web projects that are function & user-friendly</p>
+          <p class="mb-2">- I love building web projects that are functional & user-friendly</p>
 
           <hr class="text-white/30 my-4">
 
@@ -117,7 +117,7 @@
             <p class="mb-2">- Served as a 2x Team Captain, earned Most Improved twice, and was named Team MVP my senior year</p>
             <p class="mb-2">- Qualified for NCAA Nationals in multiple events; my best placement was 3rd in the 100 back my senior year</p>
             <hr class="text-white/30 my-4">
-            <p>Swimming has been a huge part of my life it’s taught me discipline, leadership, and given me some of my best memories. Thanks to everyone that I have met along the journey.</p>
+            <p>Swimming has been a huge part of my life. It’s taught me discipline, leadership, and given me some of my best memories. Thanks to everyone that I have met along the journey.</p>
           </div>
 
 
