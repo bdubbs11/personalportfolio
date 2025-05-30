@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
 import ProjectsView from '../views/ProjectsView.vue'
 import ProjectDisplay from '../views/ProjectDisplay.vue'
+import NotFound from '../views/NotFound.vue'
 
 // need to not have the loading screen run every time i switch tabs
 const router = createRouter({
@@ -28,6 +29,12 @@ const router = createRouter({
       name: 'project-display',
       component: ProjectDisplay,
       props: true,
+    },
+
+    { 
+      path: '/:pathMatch(.*)*',
+      name: 'NotFound', 
+      component: NotFound 
     },
   ],
 })
