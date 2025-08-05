@@ -31,6 +31,11 @@
         project: projects[this.id],
       };
     },
+    computed: {
+      showSeventhImage() {
+        return this.id == 1; // Show 7th image only for project ID 1 (GoalScape)
+      }
+    },
     setup() {
       return {
         modules: [Autoplay, Navigation, Pagination, EffectFade],
@@ -57,13 +62,13 @@
               </p>
 
               <!-- Development Context -->
-              <h2 class="text-xl md:text-2xl font-bold mt-8 mb-2 text-resblue">Project Background</h2>
+              <h2 class="text-xl md:text-2xl font-bold mt-8 mb-2 ">Project Background</h2>
               <p class=" text-sm md:text-lg text-center font-inter">
                   {{ project.background }}
               </p>
 
               <!-- UI Preview -->
-              <h2 class="text-xl md:text-2xl font-bold mt-8 mb-2 text-resblue">A glimpse into our website</h2>
+              <h2 class="text-xl md:text-2xl font-bold mt-8 mb-2 ">A glimpse into my website</h2>
               <p class="text-sm md:text-lg text-center mb-4 font-inter">
                 {{ project.preview }}
               </p>
@@ -104,6 +109,9 @@
                   </swiper-slide>
                   <swiper-slide>
                     <img loading="lazy" @load="$event.target.classList.add('opacity-100')" class="rounded-xl object-fill transition-opacity duration-300 opacity-0" :src="project.image6" alt="friends">
+                  </swiper-slide>
+                  <swiper-slide v-if="showSeventhImage">
+                    <img loading="lazy" @load="$event.target.classList.add('opacity-100')" class="rounded-xl object-fill transition-opacity duration-300 opacity-0" :src="project.image7" alt="additional image">
                   </swiper-slide>
                 </swiper-container>
               </div>

@@ -46,16 +46,23 @@ export default defineComponent({
           </router-link>
 
           <!-- 2nd Card -->
-            <div class="flex justify-center">
-                <div class="rounded-lg p-4 text-center flex flex-col justify-center items-center h-3/5 w-3/5">
-                    <p class="flex items-center justify-center"><img class="rounded-xl object-fill" :src="project[1].png" alt="to be continued logo"> </p>
-                </div>
+          <router-link :to="{ name: 'project-display', params: { id: 1 } }">
+            <div class="rounded-lg p-4 text-center flex flex-col justify-center items-center h-full">
+              <div class="hover:bg-gray-900 p-2 rounded cursor-pointer ease-in-out duration-300">
+                <p class="flex items-center justify-center"><img class="rounded-xl object-fill h-3/5 w-3/5" :src="project[1].png" alt="GoalScape png logo"> </p>
+                <!-- <p class="text-4xl focus:outline-none bg-gradient-to-r from-resblue to-resaqua text-transparent bg-clip-text font-young-serif">Reservoir</p> -->
+              </div>
+              <div class="font-inter">
+                  <p class="text-md mt-6">A goal visualzer</p>
+                  <p class="text-sm mt-1">Personal Project - Summer 2025</p>
+              </div>
             </div>
+          </router-link>
 
           <!-- 3rd Card (your original) -->
             <div class="flex justify-center">
                 <div class="rounded-lg p-4 text-center flex flex-col justify-center items-center h-3/5 w-3/5">
-                    <p class="flex items-center justify-center"><img class="rounded-xl object-fill" :src="project[1].png" alt="to be continued logo"> </p>
+                    <p class="flex items-center justify-center"><img class="rounded-xl object-fill" :src="project[2].png" alt="to be continued logo"> </p>
                 </div>
             </div>
           </div>
