@@ -1,4 +1,6 @@
 <template>
+<!-- want to add only show animation on first visit on site. -->
+<!-- so when swapping btwn pages the full animation doesnt show -->
   <div class="flex flex-col flex-1 min-h-screen items-center justify-center"> 
     <div class="container grid grid-cols-16 min-w-screen">
       <div class="col-span-2"></div> <!-- left border with color can be deleted-->
