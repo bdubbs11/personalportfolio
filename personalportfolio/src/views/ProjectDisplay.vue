@@ -34,6 +34,11 @@
     computed: {
       showSeventhImage() {
         return this.id == 1; // Show 7th image only for project ID 1 (GoalScape)
+      },
+      previewHtml() {
+        if (!this.project.previewLink || !this.project.previewLinkText) return null;
+        const link = '<a href="' + this.project.previewLink + '" target="_blank" rel="noopener noreferrer" class="underline text-resblue hover:text-resaqua">' + this.project.previewLinkText + '</a>';
+        return this.project.preview.replace(this.project.previewLinkText, link);
       }
     },
     setup() {
@@ -69,9 +74,7 @@
 
               <!-- UI Preview -->
               <h2 class="text-xl md:text-2xl font-bold mt-8 mb-2 ">A glimpse into my website</h2>
-              <p class="text-sm md:text-lg text-center mb-4 font-inter">
-                {{ project.preview }}
-              </p>
+              <p class="text-sm md:text-lg text-center mb-4 font-inter" v-html="previewHtml || project.preview"></p>
             </div>
 
               <!-- carasouel of images of reservoir -->
@@ -107,7 +110,7 @@
                   <swiper-slide>
                     <img loading="lazy" @load="$event.target.classList.add('opacity-100')"  class="rounded-xl object-fill transition-opacity duration-300 opacity-0" :src="project.image5" alt="profile">
                   </swiper-slide>
-                  <swiper-slide>
+                  <swiper-slide v-if="id != 2">
                     <img loading="lazy" @load="$event.target.classList.add('opacity-100')" class="rounded-xl object-fill transition-opacity duration-300 opacity-0" :src="project.image6" alt="friends">
                   </swiper-slide>
                   <swiper-slide v-if="showSeventhImage">

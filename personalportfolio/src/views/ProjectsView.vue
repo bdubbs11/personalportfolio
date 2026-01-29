@@ -57,14 +57,20 @@ export default defineComponent({
                   <p class="text-sm mt-1">Personal Project - Summer 2025</p>
               </div>
             </div>
-          </router-link>
+          </router-link> 
 
           <!-- 3rd Card (your original) -->
-            <div class="flex justify-center">
-                <div class="rounded-lg p-4 text-center flex flex-col justify-center items-center h-3/5 w-3/5">
-                    <p class="flex items-center justify-center"><img class="rounded-xl object-fill" :src="project[2].png" alt="to be continued logo"> </p>
+          <router-link :to="{ name: 'project-display', params: { id: 2 } }">
+            <div class="rounded-lg p-4 text-center flex flex-col justify-center items-center h-full">
+                <div class="hover:bg-gray-900 p-2 rounded cursor-pointer ease-in-out duration-300">
+                    <p class="flex items-center justify-center text-2xl"> Postseason Fantasy Football </p>
                 </div>
-            </div>
+                <div class="font-inter">
+                  <p class="text-md mt-6">A fantasy football website</p>
+                  <p class="text-sm mt-1">Freelance Project - Winter 2025</p>
+                </div>
+              </div>
+            </router-link>
           </div>
         </div>
       </div>

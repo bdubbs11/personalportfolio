@@ -30,16 +30,17 @@
   },
   {
     "id": 2,
-    "title": "Reservoir",
-    "png": "/images/tbc.png",
-    "description": "Reservoir is a web application designed to help users organize and track their media, connect with friends, share recommendations, and receive personalized AI-driven suggestions. Unlike existing platforms such as MyAnimeList, IMDb, and Letterboxd, Reservoir provides a more comprehensive, user-friendly experience tailored to individual preferences.",
-    "background": "Developed as part of my Senior Project (CSC4999) at Florida Southern College, Reservoir was built over several hundred hours alongside teammates Brandon Wilson and Axel Beaver. I served as the team leader, guiding the project from concept to completion and ensuring a seamless user experience and strong implementation of features.",
-    "preview": "Calm your horses I'll put something here soon. Here is more pictures fo reservoir so my website doesn't crash.",
-    "image1": "/images/reservoir/reservoir-home.png",
-    "image2": "/images/reservoir/reservoir-sign-up.png",
-    "image3": "/images/reservoir/reservoir-my-reservoir.png",
-    "image4": "/images/reservoir/reservoir-search.png",
-    "image5": "/images/reservoir/reservoir-profile.png",
-    "image6": "/images/reservoir/reservoir-friends.png"
+    "title": "Postseason Fantasy Football",
+    "png": "/images/postseasonffl.png",
+    "description": "PostseasonFFL is a web application that lets users create and manage fantasy football teams for the NFL playoffs while enforcing league rules. It uses React, Tailwind CSS, and JavaScript for the frontend and Python with Supabase/PostgreSQL for backend data management. Player stats are automatically scraped from ESPN box scores and updated via scheduled GitHub Actions, ensuring teams always reflect the latest game results.",
+    "background": "Postseasonffl was developed for one of my clients as a Freelance Developer. The client used to do this manually and was seeking a more efficent way to manage their leauge and this website was the culmination of that.",
+    "preview": "Check the link here to see the results of the past 2025-2026 Fantasy Playoffs",
+    "previewLink": "https://postseasonffl.com/",
+    "previewLinkText": "the link here",
+    "image1": "https://res.cloudinary.com/dnwp8f5uy/image/upload/v1769704992/Screenshot_2026-01-07_at_17.29.44_yhkmob.png",
+    "image2": "https://res.cloudinary.com/dnwp8f5uy/image/upload/v1769705078/Screenshot_2026-01-16_at_00.10.56_phpgcn.png",
+    "image3": "https://res.cloudinary.com/dnwp8f5uy/image/upload/v1769705078/Screenshot_2026-01-16_at_00.12.56_leg8zo.png",
+    "image4": "https://res.cloudinary.com/dnwp8f5uy/image/upload/v1769705077/Screenshot_2026-01-16_at_00.12.14_rwposd.png",
+    "image5": "https://res.cloudinary.com/dnwp8f5uy/image/upload/v1769705598/Screenshot_2026-01-29_at_11.53.10_dqgehp.png"
   }
 ]
